@@ -1,13 +1,11 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-@import url(//fonts.googleapis.com/css?family=Lato:300,400,900);
-
 /*************************************
 Title, Header and Body
 **************************************/
 
 body {
-	background: #ef7e14;
+	background: #ff7518;
 	font-family: 'Lato', Arial, sans-serif;
 	color: #ff7518;
 }
@@ -18,7 +16,7 @@ header {
 
 #titre_principal {
 	font-family: 'The Halloween', sans-serif;
-	color : rgb(225, 12, 12);
+	color : #e10c0c;
 	text-align: center;        /* centre le texte */
   	max-width: 100%;           /* empêche de dépasser */
   	overflow-wrap: break-word; /* alternative plus moderne */
@@ -29,7 +27,7 @@ header {
 }
 
 #titre_principal span {
-	color : rgb(162, 12, 12);
+	color : #a20c0c;
 	font-size: 50%;
 }
 
@@ -41,7 +39,7 @@ header {
 	max-width: 100%; /* Change l'espace que prennent les Cards (et donc le nombre max par ligne) */
 }
 
-.cards {
+.stage {
 	list-style: none;
 	padding: 0;
 }
@@ -129,9 +127,70 @@ Filters / Selectors / Menu
 	}
 }
 
+/* Container de la nav / filter */
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #f5f5f5;
+}
+
+.filter-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1rem;
+  user-select: none;
+  position: relative;
+  padding-left: 35px;
+}
+
+.filter-group input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Faux bouton radio Halloween */
+.filter-group label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #ff4500;
+  background: radial-gradient(circle, #ff8c00 0%, #ff4500 70%);
+  transition: all 0.3s ease;
+}
+
+.filter-group input[type="radio"]:checked + ::before,
+.filter-group input[type="radio"]:checked + *::before {
+  background: radial-gradient(circle, #fffacd 0%, #ffb347 70%);
+  box-shadow: 0 0 5px #ffd700, 0 0 10px #ffa500;
+}
+
 /*************************************
 Animation d'apparition des contrôles
 **************************************/
+
+/* Animation keyframes */
+@keyframes fadeInSlide {
+	from {
+		opacity: 0;
+		transform: translateY(-10px) scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
 
 /* Animation keyframes */
 @keyframes fadeInSlide {
@@ -151,15 +210,22 @@ Animation d'apparition des contrôles
 	opacity: 0; /* masqué avant l'animation */
 }
 
-/* Délai progressif pour chaque groupe */
-#main-controls .control-group:nth-child(1) {
-	animation: fadeInSlide 0.6s ease-out 0.2s forwards;
+/* Animation keyframes */
+@keyframes fadeInSlide {
+	from {
+		opacity: 0;
+		transform: translateY(-10px) scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
-#main-controls .control-group:nth-child(2) {
-	animation: fadeInSlide 0.6s ease-out 0.4s forwards;
-}
-#main-controls .control-group:nth-child(3) {
-	animation: fadeInSlide 0.6s ease-out 0.6s forwards;
+
+/* Application de l'animation */
+#main-controls {
+	animation: fadeInSlide 0.8s ease-out forwards;
+	opacity: 0; /* masqué avant l'animation */
 }
 
 /*************************************
@@ -388,7 +454,7 @@ Smarthone properties
 		flex-direction: column;
 		align-items: center;
 		width: 20em;
-		gap: 8px;
+		gap: 8px; 
 	}
 	#main-controls .control-group {
 		width: 100%;

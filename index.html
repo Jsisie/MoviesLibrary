@@ -10,14 +10,14 @@
 	<meta name="author" content="Codrops" />
 	<link rel="shortcut icon" href="../favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href="https://fonts.cdnfonts.com/css/the-halloween" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="script.js"></script>
 </head>
-<body onload="loadMovies()">
+<body onload="initApp()">
 	<div class="container">
 		<header>
-			<h1 id="titre_principal"><b>Halloween 2025</b><br></h1>
+			<h1 id="titre_principal"><b>Halloween</b><br></h1>
 
 			<!-- === Contrôles (collection / filtres / tri) === -->
 			<nav id="main-controls" aria-label="Filtrage et tri des films">
@@ -26,8 +26,8 @@
 					<label for="collection-select">Collection</label>
 					<select id="collection-select" title="Choisir la collection">
 						<option value="movies_halloween.json" selected>🎃 Halloween</option>
-						<option value="movies_christmas.json">🎄 Noël</option>
-						<option value="movies_watchlist.json">⭐ Watchlist</option>
+						<!-- <option value="movies_christmas.json">🎄 Noël</option> -->
+						<!-- <option value="movies_watchlist.json">⭐ Watchlist</option> -->
 					</select>
 				</div>
 
@@ -35,7 +35,7 @@
 				<div class="control-group" id="genre-control">
 					<label for="genre-select">Genre</label>
 					<select id="genre-select" title="Filtrer par genre">
-						<option value="all">Tous</option>
+						<option value="all" selected>Tous</option>
 						<option value="Horreur">Horreur</option>
 						<option value="Comédie">Comédie</option>
 						<option value="SF">SF</option>
@@ -44,19 +44,23 @@
 				</div>
 
 				<!-- Tri -->
-				<div class="control-group" id="sort-control">
-					<label for="sort-select">Trier</label>
-					<select id="sort-select" title="Trier les films">
-						<option value="yearDesc">Année ↓ (récent → ancien)</option>
-						<option value="yearAsc">Année ↑ (ancien → récent)</option>
-					</select>
+				<div class="filter-group">
+					<label>
+						<input type="radio" name="sort" value="yearAsc" checked>
+						<span>Année ↑</span>
+					</label>
+					<label>
+						<input type="radio" name="sort" value="yearDesc">
+						<span>Année ↓</span>
+					</label>
 				</div>
+
 			</nav>
 			<!-- /controls -->
 		</header>
 
 		<div class="wrapper">
-			<ul class="cards"><!--Cards--></ul>
+			<ul class="stage clearfix"><!--Cards--></ul>
 		</div>
 	</div>
 </body>
