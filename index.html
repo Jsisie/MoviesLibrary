@@ -26,8 +26,8 @@
 					<label for="collection-select">Collection</label>
 					<select id="collection-select" title="Choisir la collection">
 						<option value="movies_halloween.json" selected>🎃 Halloween</option>
-						<option value="movies_christmas.json">🎄 Noël</option>
-						<option value="movies_watchlist.json">⭐ Watchlist</option>
+						<!-- <option value="movies_christmas.json">🎄 Noël</option> -->
+						<!-- <option value="movies_watchlist.json">⭐ Watchlist</option> -->
 					</select>
 				</div>
 
@@ -45,10 +45,16 @@
 
 				<!-- Tri -->
 				<div class="filter-group">
-					<label>Trier par :</label>
-					<label><input type="radio" name="sort" value="yearAsc" checked> Année ↑</label>
-					<label><input type="radio" name="sort" value="yearDesc"> Année ↓</label>
+					<label>
+						<input type="radio" name="sort" value="yearAsc" checked>
+						<span>Année ↑</span>
+					</label>
+					<label>
+						<input type="radio" name="sort" value="yearDesc">
+						<span>Année ↓</span>
+					</label>
 				</div>
+
 			</nav>
 			<!-- /controls -->
 		</header>
