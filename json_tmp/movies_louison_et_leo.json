@@ -27,7 +27,7 @@
     "title": "La Salle des Profs",
     "year": 2023,
     "duration": "1h38",
-    "genres": ["Drame", "Fiction"],
+    "genres": ["Drame"],
     "trailer": "https://www.youtube.com/watch?v=jccCVEddSE8",
     "synopsis": "Carla, professeur au collège, assiste impuissante à l'interrogatoire de deux élèves, auxquels un professeur demande de signaler qui aurait pu voler une somme d'argent. Quelques jours plus tard, constatant d'autres vols, elle décide de laisser la webcam de son ordinateur allumée. Un nouveau vol est alors perpétré, et le dessin sur la chemise du voleur lui permet de confronter la secrétaire, qui cependant nie les faits. Elle décide alors de montrer la vidéo à la directrice."
   },
@@ -198,5 +198,45 @@
     "genres": ["SF", "Aventure", "Philosophique"],
     "trailer": "https://www.youtube.com/watch?v=5px2VwyCeWEE",
     "synopsis": "À l'aube de l'Humanité, dans le désert africain, une tribu de primates subit les assauts répétés d'une bande rivale, qui lui dispute un point d'eau. La découverte d'un monolithe noir inspire au chef des singes assiégés un geste inédit et décisif. En 2001, quatre millions d'années plus tard, un vaisseau spatial évolue en orbite lunaire au rythme langoureux du \"Beau Danube Bleu\"."
+  },
+  {
+    "title": "La grande aventure Lego",
+    "year": 2014,
+    "duration": "1h41",
+    "genres": ["Animation", "Comédie", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=NebLEBYigm4",
+    "synopsis": "Lord Business, un horrible despote, a réussi à mettre la main sur le Cragel, une arme extrêmement puissante grâce à laquelle ses pouvoirs démoniaques sont sans limites. Heureusement, selon une prophétie, il existe, cachée, on ne sait où, une pièce de résistance capable de désarmer le Cragel. La prophétie prédite aussi qu'un être spécial au visage jaune citron débusquera cette pièce, déjouera le Cragel, sauvant ainsi le royaume tout entier."
+  },
+  {
+    "title": "Pour une poignée de dollars",
+    "year": 1964,
+    "duration": "1h39",
+    "genres": ["Western", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=OOxuXA2oviY",
+    "synopsis": "Lord Business, un horrible despote, a réussi à mettre la main sur le Cragel, une arme extrêmement puissante grâce à laquelle ses pouvoirs démoniaques sont sans limites. Heureusement, selon une prophétie, il existe, cachée, on ne sait où, une pièce de résistance capable de désarmer le Cragel. La prophétie prédite aussi qu'un être spécial au visage jaune citron débusquera cette pièce, déjouera le Cragel, sauvant ainsi le royaume tout entier."
+  },
+  {
+    "title": "La Guerre des Mondes",
+    "year": 2005,
+    "duration": "1h56",
+    "genres": ["SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=8yRkE2EJD_g",
+    "synopsis": "Dans le New Jersey, Ray Ferrier, docker divorcé, n'entretient plus que des relations épisodiques avec son fils Robbie, 17 ans, et sa fille Rachel, 11 ans. Un matin, son ex-épouse lui confie la garde de leurs deux enfants le temps de quelques jours. Mais le soir même, un orage électromagnétique éclate et déclenche d'étranges phénomènes. Bientôt, d'énormes engins mécaniques surgissent de terre et désintègrent les êtres humains dans le chaos le plus total."
+  },
+  {
+    "title": "The Man from Earth",
+    "year": 2007,
+    "duration": "1h27",
+    "genres": ["SF", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=PkkYXjw5dyU",
+    "synopsis": "Un scientifique à l'aube de la retraite dévoile sa véritable identité : il est un immortel âgé de plus de 14 000 ans. Une révélation qui va remettre en cause toutes les croyances de son assistance."
+  },
+  {
+    "title": "Soleil Vert",
+    "year": 1973,
+    "duration": "1h37",
+    "genres": ["SF", "Drame", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=1pWr97v8ADg",
+    "synopsis": "En 2022, les hommes ont épuisé les ressources naturelles. Seul le soleil vert, sorte de pastille, parvient à nourrir une population miséreuse qui ne sait pas comment créer de tels aliments. Omniprésente et terriblement répressive, la police assure l'ordre. Accompagné de son fidèle ami, un policier va découvrir, au péril de sa vie, l'effroyable réalité de cette société inhumaine."
   }
 ]
