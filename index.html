@@ -17,7 +17,7 @@
 <body onload="initApp()">
 	<div class="container">
 		<header>
-			<h1 id="titre_principal"><b>Halloween</b><br></h1>
+			<h1 id="titre_principal"><b></b><br></h1>
 
 			<!-- === Contrôles (collection / filtres / tri) === -->
 			<nav id="main-controls" aria-label="Filtrage et tri des films">
@@ -25,9 +25,10 @@
 				<div class="control-group" id="collection-control">
 					<label for="collection-select">Collection</label>
 					<select id="collection-select" title="Choisir la collection">
-						<option value="movies_halloween.json" selected>🎃 Halloween</option>
-						<!-- <option value="movies_christmas.json">🎄 Noël</option> -->
-						<!-- <option value="movies_watchlist.json">⭐ Watchlist</option> -->
+						<option value="movies_halloween.json">🎃 Halloween</option>
+						<option value="movies_louison_et_leo.json" selected>👩‍❤️‍👨 Louison & Léo</option>
+						<option value="movies_christmas.json">🎄 Noël</option>
+						<option value="movies_watchlist.json">⭐ Watchlist</option>
 					</select>
 				</div>
 
@@ -36,10 +37,7 @@
 					<label for="genre-select">Genre</label>
 					<select id="genre-select" title="Filtrer par genre">
 						<option value="all" selected>Tous</option>
-						<option value="Horreur">Horreur</option>
-						<option value="Comédie">Comédie</option>
-						<option value="SF">SF</option>
-						<option value="Thriller">Thriller</option>
+						<!-- processed genres -->
 					</select>
 				</div>
 
