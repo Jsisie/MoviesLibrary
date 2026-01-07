@@ -15,8 +15,12 @@ header {
 }
 
 #titre_principal {
-	font-family: 'The Halloween', sans-serif;
-	color : #e10c0c;
+	font-family: 'Lato', system-ui, -apple-system, sans-serif; /* 'The Halloween', sans-serif; */
+	color : #1a1a1a;  /* #e10c0c; */
+	font-weight: 900;
+	font-size: clamp(2rem, 6vw, 3.5rem);
+    letter-spacing: 0.05em;
+	
 	text-align: center;        /* centre le texte */
   	max-width: 100%;           /* empêche de dépasser */
   	overflow-wrap: break-word; /* alternative plus moderne */

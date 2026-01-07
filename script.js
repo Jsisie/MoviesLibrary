@@ -2,7 +2,7 @@
    Variables globales
    ========================== */
 let movies = []; // Liste de films chargés sur la page
-let currentCollection = "movies_halloween.json"; // Fichier JSON chargé en cours
+let currentCollection; // Fichier JSON chargé en cours
 
 /* ==========================
    Fonction principale
@@ -13,9 +13,20 @@ let currentCollection = "movies_halloween.json"; // Fichier JSON chargé en cour
  * Charge les films et initialise les écouteurs d'événements
  */
 async function initApp() {
+    currentCollection = document.querySelector('#collection-select').value; // Récupère la collection par défaut
+    updateTitleFromCollection();
     await loadMovies(currentCollection);
     setupEventListeners();
 }
+
+function updateTitleFromCollection() {
+    const select = document.querySelector('#collection-select');
+    const selectedText = select.options[select.selectedIndex].text;
+
+    const title = document.querySelector('#titre_principal');
+    title.innerHTML = `<b>${selectedText}</b>`;
+}
+
 
 /* ==========================
    Chargement et rendu des films
@@ -27,9 +38,47 @@ async function initApp() {
  */
 async function loadMovies() {
     const res = await fetch(`json_tmp/${currentCollection}`);
+    
     movies = await res.json();
     console.info(movies);
+    
+    const genres = computeGenres(movies);
+    console.log(genres);
+
+    updateGenreSelect(genres);
     renderMovies(movies);
+
+    applyFilters(); // Applique le filtre par défaut (year asc)
+}
+
+/**
+ * Calcule les genres à partir des champs "variables" du json
+ * @param {*} movies 
+ * @returns 
+ */
+function computeGenres(movies) {
+    return [...new Set( // "Set" supprime les doublons et "..new" retransforme en tableau
+        movies.flatMap(movie => movie.genres) // Récupère les genres du json
+    )].sort((a, b) => a.localeCompare(b, 'fr')); // tri propre en français
+}
+
+/**
+ * Charge les genres dans le tri de genres de la page
+ * @param {*} genres 
+ */
+function updateGenreSelect(genres) {
+    const select = document.querySelector('#genre-select');
+
+    // Supprime tout sauf "Tous"
+    select.querySelectorAll('option:not([value="all"])')
+          .forEach(o => o.remove());
+
+    genres.forEach(genre => {
+        const option = document.createElement('option');
+        option.value = genre;
+        option.textContent = genre;
+        select.appendChild(option);
+    });
 }
 
 /**
@@ -168,6 +217,15 @@ function setupEventListeners() {
 
     // Filtrage par genre
     document.querySelector('#genre-select').addEventListener('change', applyFilters);
+
+    // Modification du titre
+    document.querySelector('#collection-select')
+    .addEventListener('change', (e) => {
+        currentCollection = e.target.value;
+        updateTitleFromCollection();
+        loadMovies();
+    });
+
 }
 
 /**
@@ -180,7 +238,9 @@ function applyFilters() {
     // Filtre par genre
     const genre = document.querySelector('#genre-select').value;
     if (genre !== 'all') {
-        filtered = filtered.filter(m => m.genres.toLowerCase().includes(genre.toLowerCase()));
+        filtered = filtered.filter(m =>
+            m.genres.includes(genre) // m.genres.toLowerCase().includes(genre.toLowerCase())
+        );
     }
 
     // Tri

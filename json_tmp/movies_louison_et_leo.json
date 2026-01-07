@@ -1,0 +1,202 @@
+[
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "duration": "2h08",
+    "genres": ["Comédie musicale", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=djoFKskdBZc",
+    "synopsis": "Au coeur de Los Angeles, une actrice en devenir prénommée Mia sert des cafés entre des auditions. De son côté, Sebastian, passionné de jazz, joue du piano dans des clubs miteux pour assurer sa subsistance. Tous deux sont bien loin de la vie rêvée à laquelle ils aspirent, mais ils développent des sentiments amoureux l'un pour l'autre."
+  },
+  {
+    "title": "Minuit à Paris",
+    "year": 2011,
+    "duration": "1h34",
+    "genres": ["Comédie", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=RYn39lE4CdU",
+    "synopsis": "Gil Pender est un scénariste et romancier. Séjournant à Paris avec sa fiancée, Gil décide de visiter la ville seule. Une nuit, Gil rencontre un groupe de fêtards qui l'entraînent dans le passé pendant une nuit et lui font connaître les icônes de l'art et de la littérature."
+  },
+  {
+    "title": "Before Sunset",
+    "year": 2004,
+    "duration": "1h20",
+    "genres": ["Romance", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=at3hf6am2OQ",
+    "synopsis": "Jesse, un écrivain américain, est de passage à Paris pour la promotion de son roman, largement inspiré par l'histoire d'amour qu'il a vécue un soir avec Céline, une Française rencontrée à Vienne neuf ans plus tôt. Depuis, les deux jeunes gens ne se sont jamais revus. C'est alors que Céline réapparaît, par le plus grand des hasards, alors que Jesse n'a qu'une heure devant lui avant qu'un avion ne le ramène aux Etats-Unis."
+  },
+  {
+    "title": "La Salle des Profs",
+    "year": 2023,
+    "duration": "1h38",
+    "genres": ["Drame", "Fiction"],
+    "trailer": "https://www.youtube.com/watch?v=jccCVEddSE8",
+    "synopsis": "Carla, professeur au collège, assiste impuissante à l'interrogatoire de deux élèves, auxquels un professeur demande de signaler qui aurait pu voler une somme d'argent. Quelques jours plus tard, constatant d'autres vols, elle décide de laisser la webcam de son ordinateur allumée. Un nouveau vol est alors perpétré, et le dessin sur la chemise du voleur lui permet de confronter la secrétaire, qui cependant nie les faits. Elle décide alors de montrer la vidéo à la directrice."
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "duration": "1h39",
+    "genres": ["Comédie", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=sE-os0Vswsw",
+    "synopsis": "Zero Mustafa, jeune réfugié politique venu de Salim-al-Jabat, réussit à se faire engager comme lobby boy au Grand Budapest Hotel, une institution située dans les montagnes de la république de Zubrowka. Le concierge de l'établissement, l'élégant M. Gustave, qui veille sur ce mythique palace, le prend sous son aile. Ensemble, ils se rendent au domicile de Mme D., une habituée du Grand Budapest."
+  },
+  {
+    "title": "Fantastic Mr. Fox",
+    "year": 2009,
+    "duration": "1h28",
+    "genres": ["Comédie", "Aventure", "Animation", "Stop-motion"],
+    "trailer": "https://www.youtube.com/watch?v=ipUj8dELx4U",
+    "synopsis": "M. Fox est le plus rusé des voleurs de poules. Une fois marié, son épouse Felicity lui demande de mettre fin à ses activités incompatibles avec la vie d'un honorable père de famille. La mort dans l'âme, il se fait alors engager comme éditorialiste dans un journal local où il s'ennuie terriblement."
+  },
+  {
+    "title": "Les Garçons et Guillaume, à table !",
+    "year": 2013,
+    "duration": "1h25",
+    "genres": ["Comédie", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=t6ED2tWZJGc",
+    "synopsis": "Encore jeune garçon, Guillaume pense qu'il est une fille, au grand désespoir de son père. Du moins se comporte-t-il comme tel, préférant jouer à Sissi impératrice qu'au soccer, rire avec ses tantes que faire les 400 coups avec ses copains."
+  },
+  {
+    "title": "Le Compte de Monte-Cristo",
+    "year": 2024,
+    "duration": "2h58",
+    "genres": ["Aventure", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=u0YnbsyvGS0",
+    "synopsis": "Victime d'un complot, le jeune Edmond Dantès est arrêté le jour de son mariage pour un crime qu'il n'a pas commis. Après quatorze ans de détention au château d'If, il parvient à s'évader. Devenu immensément riche, il revient sous l'identité du comte de Monte-Cristo pour se venger des trois hommes qui l'ont trahi."
+  },
+  {
+    "title": "Moulin Rouge!",
+    "year": 2001,
+    "duration": "2h07",
+    "genres": ["Comédie musicale", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=vBgxa38EqQA",
+    "synopsis": "À la fin du XIXe siècle, dans le Paris de la Belle Époque, Christian, un jeune poète désargenté, s'installe dans le quartier de Montmartre et découvre un univers où se mêlent sexe, drogue et french cancan, mais se rebelle contre ce milieu décadent en menant une vie de bohème. Il rêve d'écrire une grande pièce, et le peintre Henri de Toulouse-Lautrec est prêt à lui donner sa chance."
+  },
+  {
+    "title": "Roméo + Juliette",
+    "year": 1996,
+    "duration": "1h55",
+    "genres": ["Romance", "Crime", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=o_fVfZN7POE",
+    "synopsis": "Verona Beach, un quartier de Los Angeles, est le théâtre de la haine entre deux familles ennemies: les Montaigue et les Capulet. A l'occasion d'un bal donné chez ces derniers, Romeo et son cousin Mercutio s'introduisent chez leurs rivaux où le premier tombe amoureux de la belle Juliette qui ne tarde pas non plus à succomber à ses charmes."
+  },
+  {
+    "title": "En avant",
+    "year": 2020,
+    "duration": "1h42",
+    "genres": ["Animation", "Aventure", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=XRF6uuubGcI",
+    "synopsis": "Après le décès de leur père, deux frères elfes découvrent un bâton magique qui peut le ramener à la vie pour 24 heures, donnant au jeune frère une chance de rencontrer son père pour la première fois. Quand le sort tourne mal, c'est une course contre la montre pour remettre les choses en ordre."
+  },
+  {
+    "title": "Volte-Face",
+    "year": 1997,
+    "duration": "2h18",
+    "genres": ["Action", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=NS-zlC6sCzU",
+    "synopsis": "Castor Troy, dangereux terroriste, est tombé dans le coma à la suite d'un affrontement avec Sean Archer, agent de la CIA. Grâce à une intervention chirurgicale, Archer prend le visage de Troy pour faire avouer au frère de ce dernier l'emplacement d'une bombe."
+  },
+  {
+    "title": "Luca",
+    "year": 2021,
+    "duration": "1h35",
+    "genres": ["Animation", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=0hgHY9k-44U",
+    "synopsis": "Même si sa mère lui a formellement interdit, Luca, un jeune monstre marin, s'aventure hors de l'eau. Il découvre alors qu'une fois sec, ses écailles disparaissent, lui permettant de prendre une apparence humaine."
+  },
+  {
+    "title": "The Book Of Life",
+    "year": 2014,
+    "duration": "1h35",
+    "genres": ["Animation", "Aventure", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=_i69CJc1BgE",
+    "synopsis": "Depuis la nuit des temps, au fin fond du Mexique, les esprits passent d'un monde à l'autre le jour de la fête des Morts. Dans le village de San Angel, Manolo, un jeune rêveur tiraillé entre les attentes de sa famille et celles de son coeur, est mis au défi par les dieux. Afin de conquérir le coeur de sa bien-aimée Maria, il devra partir au-delà des mondes et affronter ses plus grandes peurs. Une aventure épique qui déterminera non seulement son sort, mais celui de tous ceux qui l'entourent."
+  },
+  {
+    "title": "500 jours ensemble",
+    "year": 2009,
+    "duration": "1h35",
+    "genres": ["Romance", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=PsD0NpFSADM",
+    "synopsis": "Après que sa petite amie l'ait plaqué, un auteur de cartes de voeux se souvient de leurs 500 jours passés ensemble pour essayer de comprendre ce qui s'est mal passé dans leur histoire d'amour."
+  },
+  {
+    "title": "Frankenstein",
+    "year": 2025,
+    "duration": "2h30",
+    "genres": ["Horreur", "SF", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=8aulMPhE12g",
+    "synopsis": "Victor Frankenstein, un scientifique aussi brillant qu'égocentrique, donne vie à une créature dans le cadre d'une expérience monstrueuse qui mènera tragiquement le créateur et sa création à leur perte."
+  },
+  {
+    "title": "Souvenirs Goutte à Goutte",
+    "year": 1991,
+    "duration": "1h58",
+    "genres": ["Animation", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=OfkQlZArxw0",
+    "synopsis": "1982. Taeko Okajima, jeune employée de bureau à Tokyo, s'ennuie dans son travail et décide de passer quelque temps à la campagne, dans la région rurale de Yamagata pour travailler dans la ferme de son beau-frère. Tokyoïte élevée à la ville, elle rêve de la campagne depuis l'enfance, mais n'y a presque jamais séjourné."
+  },
+  {
+    "title": "Batman: Returns",
+    "year": 1992,
+    "duration": "2h06",
+    "genres": ["Action", "Super-héros"],
+    "trailer": "https://www.youtube.com/watch?v=TlbtLfWvFbo",
+    "synopsis": "Non seulement Batman doit affronter le Pingouin, monstre génétique doté d'une intelligence à toute épreuve, qui sème la terreur mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman."
+  },
+  {
+    "title": "Mémoires d'un Escargot",
+    "year": 2024,
+    "duration": "1h35",
+    "genres": ["Animation", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=2AZywHEEnY0",
+    "synopsis": "À la mort de son père, la vie heureuse de Grace Pudel, collectionneuse d'escargots et passionnée de lecture, vole en éclats. Arrachée à son frère jumeau Gilbert, elle atterrit dans une famille d'accueil à l'autre bout de l'Australie."
+  },
+  {
+    "title": "Contact",
+    "year": 1997,
+    "duration": "2h22",
+    "genres": ["SF", "Mystère"],
+    "trailer": "https://www.youtube.com/watch?v=Q399v-pMG30",
+    "synopsis": "Ellie Arroway est une jeune scientifique, passionnée d'astronomie, qui rêve de découvrir une forme de vie en dehors de notre système solaire. Après quatre années d'efforts, elle reçoit un message des extraterrestres qui décrit les plans d'un transporteur interstellaire."
+  },
+  {
+    "title": "About Time",
+    "year": 2013,
+    "duration": "2h03",
+    "genres": ["Romance", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=7OIFdWk83no",
+    "synopsis": "Lorsqu'il atteint sa majorité, Tim apprend par son père que les hommes de la famille ont tous le pouvoir de remonter le temps. Cependant ce pouvoir a des limites : seule sa propre existence peut être modifiée, ainsi que par répercussion celle de ses proches ; mais en aucun cas le cours de l'Histoire ne peut changer. Au départ incrédule, Tim décide d'utiliser ce don pour séduire la belle et fragile Mary, qu'il finit par épouser après bien des essais."
+  },
+  {
+    "title": "N'oublie jamais",
+    "year": 2004,
+    "duration": "2h04",
+    "genres": ["Romance", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=BjJcYdEOI0k",
+    "synopsis": "Dans les années 1940 en Caroline du Sud, Noah Calhoun, ouvrier d'usine, et Allie, une fille riche, sont désespérément amoureux. Mais ses parents n'approuvent pas. Lorsque Noah part servir pendant la Seconde Guerre mondiale, cela semble marquer la fin de leur histoire d'amour."
+  },
+  {
+    "title": "Priscilla folle du désert",
+    "year": 1994,
+    "duration": "2h44",
+    "genres": ["Comédie musicale", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=5AjMi7fzTZg",
+    "synopsis": "Felicia, Mitzi et Bernadette, trois drag-queen australiens, doivent se produire à l'autre bout du pays. Entre eux et l'hôtel où ils sont attendus s'étend le désert, immense et aride. Les trois amis ne se laissent pas décourager."
+  },
+  {
+    "title": "La French",
+    "year": 2014,
+    "duration": "2h15",
+    "genres": ["Thriller", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=AELNPQcR6lE",
+    "synopsis": "Marseille. 1975. Pierre Michel, jeune magistrat venu de Metz avec femme et enfants, est nommé juge du grand banditisme. Il décide de s'attaquer à la \"French Connection,\" une organisation mafieuse qui exporte l'héroïne dans le monde entier."
+  },
+  {
+    "title": "2001, l'Odyssée de l'espace",
+    "year": 1968,
+    "duration": "2h29",
+    "genres": ["SF", "Aventure", "Philosophique"],
+    "trailer": "https://www.youtube.com/watch?v=5px2VwyCeWEE",
+    "synopsis": "À l'aube de l'Humanité, dans le désert africain, une tribu de primates subit les assauts répétés d'une bande rivale, qui lui dispute un point d'eau. La découverte d'un monolithe noir inspire au chef des singes assiégés un geste inédit et décisif. En 2001, quatre millions d'années plus tard, un vaisseau spatial évolue en orbite lunaire au rythme langoureux du \"Beau Danube Bleu\"."
+  }
+]
