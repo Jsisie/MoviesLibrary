@@ -1,10 +1,122 @@
 [
   {
-    "title": "Heat",
+    "title": "Metropolis",
+    "year": 1927,
+    "duration": "2h33",
+    "genres": ["SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=gdtZv3XROnc",
+    "synopsis": "Au XXIe siècle, une métropole à l'architecture fantastique vit sous le joug d'un groupe de tyrans. Les aristocrates se prélassent et se divertissent dans de somptueuses demeures et de luxuriants jardins, tandis que la grande masse de la population travaille, dort et survit durement dans les profondeurs de la terre. Un savant invente une femme-robot qui doit détourner les opprimés de la révolte qui gronde."
+  },
+  {
+    "title": "Her",
+    "year": 2013,
+    "duration": "2h06",
+    "genres": ["SF", "Romance", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=dJTU48_yghs",
+    "synopsis": "En 2025 à Los Angeles, Theodore travaille pour un site web comme écrivain public, rédigeant des lettres manuscrites de toutes sortes - familiales, amoureuses, etc. - pour d'autres. Son épouse Catherine et lui ont rompu depuis bientôt un an mais il ne se décide pas à signer les papiers du divorce. Dans un état de dépression qui perdure, il installe un nouveau système d'exploitation OS1, auquel il donne une voix féminine."
+  },
+  {
+    "title": "Ex-Machina",
+    "year": 2014,
+    "duration": "1h48",
+    "genres": ["SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=EoQuVnKhxaM",
+    "synopsis": "À 26 ans, Caleb est un des plus brillants codeurs que compte BlueBook, le plus important moteur de recherche Internet au monde. À ce titre, il remporte un séjour d'une semaine dans la résidence du grand patron à la montagne. Quand il arrive dans la demeure isolée, il découvre qu'il va devoir participer à une expérience troublante : interagir avec le représentant d'une nouvelle intelligence artificielle apparaissant sous les traits d'une très jolie femme robot prénommée Ava."
+  },
+  {
+    "title": "Starship Troopers",
+    "year": 1997,
+    "duration": "2h15",
+    "genres": ["SF", "Action", "Guerre"],
+    "trailer": "https://www.youtube.com/watch?v=zPYuV_jGk7M",
+    "synopsis": "Dans un futur lointain, les pays de la Terre se sont regroupés au sein de la Fédération, un gouvernement mondial. Cette Fédération se lance alors dans la conquête de l'espace. Les terriens colonisent des planètes et explorent de nouveaux systèmes planétaires. Ils entrent également en relation avec des civilisations extraterrestres. Petit à petit, ils se trouvent menacés par l'une d'entre elles, la belliqueuse civilisation des Arachnides."
+  },
+  {
+    "title": "Abyss",
+    "year": 1989,
+    "duration": "2h19",
+    "genres": ["SF", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=7cCVYAcIIAo",
+    "synopsis": "Heurté par un objet non identifié, Le Montana, un sous-marin nucléaire, se retrouve sur le rebord d'une faille, à plusieurs centaines de mètres de profondeur. Pour explorer le bateau coulé, la marine américaine réquisitionne la plate-forme pétrolière expérimentale Deepcore."
+  },
+  {
+    "title": "Soleil Vert",
+    "year": 1973,
+    "duration": "1h37",
+    "genres": ["SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=1pWr97v8ADg",
+    "synopsis": "En 2022, les hommes ont épuisé les ressources naturelles. Seul le soleil vert, sorte de pastille, parvient à nourrir une population miséreuse qui ne sait pas comment créer de tels aliments. Omniprésente et terriblement répressive, la police assure l'ordre."
+  },
+  {
+    "title": "L'Armée des 12 singes",
     "year": 1995,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "https://www.youtube.com/watch?v=PpAhjOvQVj0",
-    "synopsis": "La bande de Neil McCauley à laquelle est venu se greffer Waingro, une nouvelle recrue, attaque un fourgon blindé pour s'emparer d'une somme importante en obligations. Cependant, ce dernier tue froidement l'un des convoyeurs et Chris Shiherlis se retrouve obligé de terminer le travail."
+    "duration": "2h09",
+    "genres": ["SF", "Thriller", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=VPEYWka0X2w",
+    "synopsis": "L'année 2035 n'est pas gaie. L'humanité a presque entièrement disparu, décimée par un mystérieux virus. Quelques survivants se terrent dans des catacombes. L'un d'eux, James Cole, est expédié directement en 1996, année du cataclysme, afin de comprendre l'implication dans l'affaire d'une mystérieuse organisation, l'Armée des douze singes. Cole espère aussi percer le mystère du rêve qui le hante depuis l'enfance : la mort violente d'un homme dans un aéroport."
+  },
+  {
+    "title": "Rencontres du troisième type",
+    "year": 1977,
+    "duration": "2h17",
+    "genres": ["SF", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=Tr38YWX3XYI",
+    "synopsis": "Pendant qu'une coupure d'électricité paralyse la ville, Roy Neary, un réparateur de câbles de l'Indiana, voit une soucoupe volante passer au-dessus de sa voiture. Barry Guiler, un petit garçon de quatre ans, est, quant à lui, réveillé par le bruit de ses jouets qui se mettent en marche."
+  },
+  {
+    "title": "Les Fils de l'homme",
+    "year": 2006,
+    "duration": "1h49",
+    "genres": ["SF", "Thriller", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=2VT2apoX90o",
+    "synopsis": "Dans une société futuriste où les êtres humains ne parviennent plus à se reproduire, l'annonce de la mort de la plus jeune personne, âgée de 18 ans, met la population en émoi. Au même moment, une femme tombe enceinte - un fait qui ne s'est pas produit depuis une vingtaine d'années - et devient par la même occasion la personne la plus enviée et la plus recherchée de la Terre."
+  },
+  {
+    "title": "Le Cinquième Élément",
+    "year": 1997,
+    "duration": "2h06",
+    "genres": ["SF", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=7rzmiE-pESk",
+    "synopsis": "Egypte, 1914. Des extraterrestres récupèrent quatre pierres magiques, symboles des quatre éléments, jadis confiées à des prêtres. Avant de partir, les extraterrestres promettent que dans 300 ans, ils rapporteront les précieux cailloux. Au XXIIIe siècle, alors qu'ils font route vers la Terre, ils sont anéantis par la planète du Mal. Les habitants de ce monde maléfique, les Mangalores, s'emparent des pierres et foncent vers la Terre."
+  },
+  {
+    "title": "Cloud Atlas",
+    "year": 2012,
+    "duration": "2h52",
+    "genres": ["SF", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=ByehYal_cCs",
+    "synopsis": "À travers une histoire qui se déroule sur cinq siècles dans plusieurs espaces temps, des êtres se croisent et se retrouvent d’une vie à l’autre, naissant et renaissant successivement… Tandis que leurs décisions ont des conséquences sur leur parcours, dans le passé, le présent et l’avenir lointain, un tueur devient un héros et un seul acte de générosité suffit à entraîner des répercussions pendant plusieurs siècles et à provoquer une révolution. Tout, absolument tout, est lié."
+  },
+  {
+    "title": "Stalker",
+    "year": 1979,
+    "duration": "2h43",
+    "genres": ["SF", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=mIfWXqeOrJ4",
+    "synopsis": "Stalker, sorte de guide, accompagne un physicien et un écrivain dans la zone, vaste no man's land ou jadis est tombe une météorite. Ce territoire contient un secret: la chambre des désirs exauçant les voeux de ceux qui s'y rendent."
+  },
+  {
+    "title": "La Jetée",
+    "year": 1962,
+    "duration": "28mn",
+    "genres": ["SF", "Documentaire"],
+    "trailer": "https://www.youtube.com/watch?v=WstrUci5Fbg",
+    "synopsis": "À la suite de la Troisième Guerre mondiale qui a détruit Paris, des survivants s'installent dans les souterrains de Chaillot. Pour sauver cette humanité condamnée, on décide de projeter dans le temps des émissaires qui appelleraient le passé et l'avenir au secours du présent. Un homme, envoyé dans le passé, y rencontre une femme et découvre avec elle le bonheur d'instants partagés. Devant le succès de ces expériences, on tente alors de l'acheminer dans le futur."
+  },
+  {
+    "title": "Solaris",
+    "year": 1972,
+    "duration": "2h47",
+    "genres": ["SF", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=wT8Y7DGQn7M",
+    "synopsis": "La planète Solaris, recouverte d'un océan, a longtemps intrigué les chercheurs qui y ont installé une station. Faute de résultats concluants, le docteur Kris Kelvin, un homme bouleversé par le suicide de sa femme, y est envoyé afin de définir s'il faut fermer la station ou non."
+  },
+  {
+    "title": "Sunshine",
+    "year": 2007,
+    "duration": "1h40",
+    "genres": ["SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=FetfR0vQvd4",
+    "synopsis": "En cette année 2057, le soleil se meurt, entraînant dans son déclin l'extinction de l'espèce humaine. Le vaisseau spatial ICARUS II avec à son bord un équipage de 7 hommes et femmes dirigé par le Capitaine Kaneda est le dernier espoir de l'humanité. Leur mission : faire exploser un engin nucléaire à la surface du soleil pour relancer l'activité solaire."
   }
 ]
