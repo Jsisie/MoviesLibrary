@@ -3,7 +3,7 @@
     "title": "Metropolis",
     "year": 1927,
     "duration": "2h33",
-    "genres": ["SF", "Thriller"],
+    "genres": ["SF", "Thriller", "Muet", "Noir et Blanc"],
     "trailer": "https://www.youtube.com/watch?v=gdtZv3XROnc",
     "synopsis": "Au XXIe siècle, une métropole à l'architecture fantastique vit sous le joug d'un groupe de tyrans. Les aristocrates se prélassent et se divertissent dans de somptueuses demeures et de luxuriants jardins, tandis que la grande masse de la population travaille, dort et survit durement dans les profondeurs de la terre. Un savant invente une femme-robot qui doit détourner les opprimés de la révolte qui gronde."
   },
@@ -99,7 +99,7 @@
     "title": "La Jetée",
     "year": 1962,
     "duration": "28mn",
-    "genres": ["SF", "Documentaire"],
+    "genres": ["SF", "Documentaire", "Noir et Blanc"],
     "trailer": "https://www.youtube.com/watch?v=WstrUci5Fbg",
     "synopsis": "À la suite de la Troisième Guerre mondiale qui a détruit Paris, des survivants s'installent dans les souterrains de Chaillot. Pour sauver cette humanité condamnée, on décide de projeter dans le temps des émissaires qui appelleraient le passé et l'avenir au secours du présent. Un homme, envoyé dans le passé, y rencontre une femme et découvre avec elle le bonheur d'instants partagés. Devant le succès de ces expériences, on tente alors de l'acheminer dans le futur."
   },
@@ -118,5 +118,245 @@
     "genres": ["SF", "Thriller"],
     "trailer": "https://www.youtube.com/watch?v=FetfR0vQvd4",
     "synopsis": "En cette année 2057, le soleil se meurt, entraînant dans son déclin l'extinction de l'espèce humaine. Le vaisseau spatial ICARUS II avec à son bord un équipage de 7 hommes et femmes dirigé par le Capitaine Kaneda est le dernier espoir de l'humanité. Leur mission : faire exploser un engin nucléaire à la surface du soleil pour relancer l'activité solaire."
+  },
+  {
+    "title": "La Classe américaine",
+    "year": 1993,
+    "duration": "1h10",
+    "genres": ["Comédie", "Western"],
+    "trailer": "https://www.youtube.com/watch?v=rb9e4mnF-zM",
+    "synopsis": "Quand 'l'homme le plus classe du monde', George Abitbol, est trouvé mort au large de l'atoll de Pom Pom Galli situé entre 'l'Australia' et la 'South America', dans 'l'Ocean South Pacific', les journalistes Dave, Peter et Steven enquêtent sur ses dernières paroles. Au cours de leur enquête, les journalistes vont approcher toutes les personnes qui l'ont connu pendant sa vie au 'Tegzas', et découvrir qu'il n'avait pas plus de classe que ça."
+  },
+  {
+    "title": "The Mask",
+    "year": 1994,
+    "duration": "1h41",
+    "genres": ["Comédie", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=LZl69yk5lEY",
+    "synopsis": "Stanley Ipkiss, modeste employé de banque, passionné par l'univers de Tex Avery, trouve un masque ancien aux pouvoirs surnaturels. Il est néanmoins partagé entre devenir cette créature verte sûre d'elle ou rester le timide Stanley Ipkiss, incapable d'aborder la magnifique chanteuse de cabaret Tina Carlyle."
+  },
+  {
+    "title": "C'est arrivé près de chez vous",
+    "year": 1992,
+    "duration": "1h32",
+    "genres": ["Comédie", "Crime"],
+    "trailer": "https://www.youtube.com/watch?v=4KNf1qyeSZE",
+    "synopsis": "En Belgique, Ben gagne son pain de manière peu orthodoxe : il assassine posément de petites gens. Il est modeste. S'en prendre aux grandes fortunes attirerait l'attention sur lui et créerait quelques malheureux scandales. Ce sont ces sages principes qu'il développe devant une équipe de tournage attachée à ses pas. Ses parents et amis viennent aussi dire leur mot. Las, l'argent vient à manquer. Compréhensif, Ben propose de financer la suite du reportage grâce à sa petite industrie florissante."
+  },
+  {
+    "title": "Jeux Dangereux (To be or not to be)",
+    "year": 1942,
+    "duration": "1h39",
+    "genres": ["Comédie", "Guerre", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=Ing-gjO9j28",
+    "synopsis": "Pendant l'occupation nazie de la Pologne, une troupe d'acteurs est impliquée dans les efforts d'un soldat polonais cherchant un espion allemand. En effet, Joseph et sa troupe doivent déjouer l'attention des nazis et arrêter le Professeur Siletsky avant qu'il ne divulgue une liste des membres de la résistance polonaise."
+  },
+  {
+    "title": "The Blues Brothers",
+    "year": 1980,
+    "duration": "2h07",
+    "genres": ["Comédie", "Musical"],
+    "trailer": "https://www.youtube.com/watch?v=2HCR4c1zPyk",
+    "synopsis": "Jake et Elwood Blues veulent reformer leur groupe de rhythm'n'blues et donner des concerts afin de gagner les 5 000 dollars nécessaires à la survie de l'orphelinat de leur enfance, menacé de fermeture par le fisc. Leur projet s'annonce difficile à réaliser. Poursuivis par la police, une bande de néonazis, des musiciens et une femme mystérieuse, animée d'une rancune tenace, les Blues Brothers se trouvent mêlés à des aventures plus rocambolesques les unes que les autres."
+  },
+  {
+    "title": "La Folie des grandeurs",
+    "year": 1971,
+    "duration": "1h48",
+    "genres": ["Comédie","Action"],
+    "trailer": "https://www.youtube.com/watch?v=5grigo7ftl0",
+    "synopsis": "Don Salluste profite de ses fonctions de ministre des Finances du roi d'Espagne pour racketter le peuple. Mais la Reine qui le déteste réussit à le chasser de la cour. Ivre de vengeance, il décide de la compromettre. Son neveu Don César ayant refusé de se mêler du complot, c'est finalement le valet de Don Salluste, Blaze, transi d'amour pour la souveraine, qui tiendra le rôle du Prince charmant."
+  },
+  {
+    "title": "Dikkenek",
+    "year": 2006,
+    "duration": "1h24",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=CetDahghkqU",
+    "synopsis": "JC et Stef sont des amis d'enfance inséparables. JC est le dikkenek belge, un donneur de leçon à cinq balles, un moralisateur, un tombeur de minettes, bref une grande gueule intégrale, coiffé comme un peigne. Stef est tout le contraire. Il cherche le Grand Amour, mais vu qu'il ne bouge pas de son lit, il va avoir du mal à trouver. JC lui explique donc la méthode : faire un sans-faute du point A jusqu'au point G."
+  },
+  {
+    "title": "Y a-t-il un pilote dans l'avion ?",
+    "year": 1980,
+    "duration": "1h28",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=TnRYbC4C6ow",
+    "synopsis": "Un ancien pilote de guerre est traumatisé et ne veut plus piloter. Il monte dans un avion de ligne pour suivre son ancienne petite amie hôtesse de l'air. Mais suite à une intoxication alimentaire, le voyage tourne très vite à la catastrophe et l'avion se retrouve sans pilote."
+  },
+  {
+    "title": "Les Aventures de Rabbi Jacob",
+    "year": 1973,
+    "duration": "1h40",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=4DIZAtjzy4E",
+    "synopsis": "À la suite d'un quiproquo, un homme d'affaires irascible et raciste se retrouve confronté, malgré lui, à un règlement de compte entre terroristes d'un pays arabe. Pour semer ses poursuivants, il se déguise en rabbin, après avoir croisé des religieux juifs en provenance de New York à l'aéroport d'Orly."
+  },
+  {
+    "title": "La Party",
+    "year": 1968,
+    "duration": "1h39",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=XKnaESDPsfQ",
+    "synopsis": "Hrundi V. Bakshi, acteur indien engagé par un grand studio hollywoodien, saccage le tournage et détruit par mégarde l’onéreux décor principal. Blacklisté, il se retrouve, suite à un quiproquo, invité à la soirée privée du producteur qui vient de le virer."
+  },
+  {
+    "title": "O'Brother",
+    "year": 2000,
+    "duration": "1h47",
+    "genres": ["Comédie", "Crime"],
+    "trailer": "https://www.youtube.com/watch?v=eW9Xo2HtlJI",
+    "synopsis": "Le Mississippi profond, dans les années 30. Trois bagnards enchainés parviennent à s'évader du bagne. Ulysse Everett McGill, accompagné du gentil et simple Delmer et de l'éternel râleur Pete, tentent l'aventure de leur vie pour retrouver leur liberté. Dans leur fuite effrénée, les trois compères parviennent à se libérer de leurs pénibles chaînes grâce à l'aide du cousin de Pete, qui s'empresse de les trahir."
+  },
+  {
+    "title": "Un poisson nommé Wanda",
+    "year": 1988,
+    "duration": "1h48",
+    "genres": ["Comédie", "Crime"],
+    "trailer": "https://www.youtube.com/watch?v=0WTwVpEEMps",
+    "synopsis": "La belle Wanda, assistée de Ken le bégayeur et d'Otto son stupide amant, ont réussi un joli hold up grâce à George, dit le cerveau. Mais celui-ci, trop vite dénoncé par Wanda, moisit en prison, avec le secret de la cachette du butin."
+  },
+  {
+    "title": "Les bronzés font du ski",
+    "year": 1979,
+    "duration": "1h30",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=xgQH75teJGk",
+    "synopsis": "La joyeuse troupe d'amis (plus connu sous le nom des `Bronzés') se retrouvent aux sports d'hiver. Les retrouvailles passées, problèmes sentimentaux, mésaventures en altitude et fous rires rythment les vacances des amis pour la vie ! L'équipe ira même se perdre en montagne."
+  },
+  {
+    "title": "Les Sous-doués",
+    "year": 1980,
+    "duration": "1h32",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=C6V72PEzOKg",
+    "synopsis": "Bébel et ses petits camarades du Cours Louis XIV, sont réputés pour être des fainéants et d'invétérés farceurs. Leur lycée est même dernier du classement au baccalauréat avec cent pour cent de recalés à l'examen ! Après une plaisanterie qui tourne mal, les trublions se retrouvent obligés d'obtenir leur bac à tout prix, tout en rusant et trichant, s'ils ne veulent pas finir en prison."
+  },
+  {
+    "title": "Sherlock Junior",
+    "year": 1924,
+    "duration": "45mn",
+    "genres": ["Comédie", "Enquête", "Muet", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=JSEK1NUPrGA",
+    "synopsis": "Un apprenti Sherlock Holmes se réfugie dans l'imaginaire du cinéma pour devenir le héros de ses rêves... Dans ce moyen métrage muet de 1924, parmi les plus inventifs de Buster Keaton, les gags s'insèrent avec fluidité dans l'histoire, s'enchaînant à un rythme effréné."
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+  },
+  {
+    "title": "AAAA",
+    "year": 9999,
+    "duration": "2h50",
+    "genres": ["Thriller", "Crime", "Action"],
+    "trailer": "AAAAAAAAAAAAA",
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
   }
 ]
