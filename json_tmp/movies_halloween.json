@@ -3,7 +3,7 @@
     "title": "Le Cabinet du Dr. Caligari",
     "year": 1920,
     "duration": "1h18",
-    "genres": ["Twist", "Mystère", "Noir et Blanc"],
+    "genres": ["Twist", "Mystère", "Noir et Blanc", "Muet"],
     "trailer": "https://www.youtube.com/watch?v=Gipx80OsTbc",
     "synopsis": "Le sinistre Dr Caligari sème la terreur dans une petite ville du nord de l'Allemagne à l'aide d'un somnambule nommé Cesare. Lors d'une fête foraine, Cesare prédit l'avenir au public et annonce à Alan, un jeune homme, qu'il va bientôt mourir. La nuit suivante, Alan est assassiné. Son ami Francis soupçonne le Dr Caligari d'être derrière ce meurtre."
   },
@@ -11,7 +11,7 @@
     "title": "Nosferatu",
     "year": 1922,
     "duration": "1h34",
-    "genres": ["Horreur", "Vampires", "Noir et Blanc"],
+    "genres": ["Horreur", "Vampires", "Noir et Blanc", "Muet"],
     "trailer": "https://www.youtube.com/watch?v=npxhdRMYHy0",
     "synopsis": "En 1838, le clerc de notaire Hulter est envoyé en Transylvanie chez le comte Orlock, le Vampires Nosferatu. Celui-ci sème la terreur et la peste dans un village voisin, avant de tenter de séduire Ellen, la fiancée de son invité. Mais la lumière de l'aube lui sera fatale."
   },
@@ -259,7 +259,7 @@
     "title": "Frankenweenie",
     "year": 2012,
     "duration": "1h27",
-    "genres": ["Animation", "Noir et Blanc"],
+    "genres": ["Animation", "Noir et Blanc", "Muet"],
     "trailer": "https://www.youtube.com/watch?v=US5CWmHRz6g",
     "synopsis": "Après la mort soudaine de Sparky, son chien adoré, le jeune Victor fait appel au pouvoir de la science afin de ramener à la vie celui qui était aussi son meilleur ami. Il lui apporte au passage quelques modifications de son cru. Victor va tenter de cacher la créature qu'il a fabriquée mais lorsque Sparky s'échappe, ses copains de classe, ses professeurs et la ville tout entière vont apprendre que vouloir mettre la vie en laisse peut avoir quelques monstrueuses conséquences."
   },
