@@ -3,7 +3,7 @@
     "title": "Metropolis",
     "year": 1927,
     "duration": "2h33",
-    "genres": ["SF", "Thriller", "Muet", "Noir et Blanc"],
+    "genres": ["SF", "Thriller", "Drame", "Muet", "Noir et Blanc"],
     "trailer": "https://www.youtube.com/watch?v=gdtZv3XROnc",
     "synopsis": "Au XXIe siècle, une métropole à l'architecture fantastique vit sous le joug d'un groupe de tyrans. Les aristocrates se prélassent et se divertissent dans de somptueuses demeures et de luxuriants jardins, tandis que la grande masse de la population travaille, dort et survit durement dans les profondeurs de la terre. Un savant invente une femme-robot qui doit détourner les opprimés de la révolte qui gronde."
   },
@@ -19,7 +19,7 @@
     "title": "Ex-Machina",
     "year": 2014,
     "duration": "1h48",
-    "genres": ["SF", "Thriller"],
+    "genres": ["SF", "Thriller", "Drame"],
     "trailer": "https://www.youtube.com/watch?v=EoQuVnKhxaM",
     "synopsis": "À 26 ans, Caleb est un des plus brillants codeurs que compte BlueBook, le plus important moteur de recherche Internet au monde. À ce titre, il remporte un séjour d'une semaine dans la résidence du grand patron à la montagne. Quand il arrive dans la demeure isolée, il découvre qu'il va devoir participer à une expérience troublante : interagir avec le représentant d'une nouvelle intelligence artificielle apparaissant sous les traits d'une très jolie femme robot prénommée Ava."
   },
@@ -67,7 +67,7 @@
     "title": "Les Fils de l'homme",
     "year": 2006,
     "duration": "1h49",
-    "genres": ["SF", "Thriller", "Action"],
+    "genres": ["SF", "Thriller", "Action", "Drame"],
     "trailer": "https://www.youtube.com/watch?v=2VT2apoX90o",
     "synopsis": "Dans une société futuriste où les êtres humains ne parviennent plus à se reproduire, l'annonce de la mort de la plus jeune personne, âgée de 18 ans, met la population en émoi. Au même moment, une femme tombe enceinte - un fait qui ne s'est pas produit depuis une vingtaine d'années - et devient par la même occasion la personne la plus enviée et la plus recherchée de la Terre."
   },
@@ -91,7 +91,7 @@
     "title": "Stalker",
     "year": 1979,
     "duration": "2h43",
-    "genres": ["SF", "Aventure"],
+    "genres": ["SF", "Drame", "Aventure"],
     "trailer": "https://www.youtube.com/watch?v=mIfWXqeOrJ4",
     "synopsis": "Stalker, sorte de guide, accompagne un physicien et un écrivain dans la zone, vaste no man's land ou jadis est tombe une météorite. Ce territoire contient un secret: la chambre des désirs exauçant les voeux de ceux qui s'y rendent."
   },
@@ -99,7 +99,7 @@
     "title": "La Jetée",
     "year": 1962,
     "duration": "28mn",
-    "genres": ["SF", "Documentaire", "Noir et Blanc"],
+    "genres": ["SF", "Drame", "Documentaire", "Noir et Blanc"],
     "trailer": "https://www.youtube.com/watch?v=WstrUci5Fbg",
     "synopsis": "À la suite de la Troisième Guerre mondiale qui a détruit Paris, des survivants s'installent dans les souterrains de Chaillot. Pour sauver cette humanité condamnée, on décide de projeter dans le temps des émissaires qui appelleraient le passé et l'avenir au secours du présent. Un homme, envoyé dans le passé, y rencontre une femme et découvre avec elle le bonheur d'instants partagés. Devant le succès de ces expériences, on tente alors de l'acheminer dans le futur."
   },
@@ -107,7 +107,7 @@
     "title": "Solaris",
     "year": 1972,
     "duration": "2h47",
-    "genres": ["SF", "Aventure"],
+    "genres": ["SF", "Drame", "Aventure"],
     "trailer": "https://www.youtube.com/watch?v=wT8Y7DGQn7M",
     "synopsis": "La planète Solaris, recouverte d'un océan, a longtemps intrigué les chercheurs qui y ont installé une station. Faute de résultats concluants, le docteur Kris Kelvin, un homme bouleversé par le suicide de sa femme, y est envoyé afin de définir s'il faut fermer la station ou non."
   },
@@ -139,7 +139,7 @@
     "title": "C'est arrivé près de chez vous",
     "year": 1992,
     "duration": "1h32",
-    "genres": ["Comédie", "Crime"],
+    "genres": ["Comédie", "Crime", "Drame"],
     "trailer": "https://www.youtube.com/watch?v=4KNf1qyeSZE",
     "synopsis": "En Belgique, Ben gagne son pain de manière peu orthodoxe : il assassine posément de petites gens. Il est modeste. S'en prendre aux grandes fortunes attirerait l'attention sur lui et créerait quelques malheureux scandales. Ce sont ces sages principes qu'il développe devant une équipe de tournage attachée à ses pas. Ses parents et amis viennent aussi dire leur mot. Las, l'argent vient à manquer. Compréhensif, Ben propose de financer la suite du reportage grâce à sa petite industrie florissante."
   },
@@ -240,123 +240,123 @@
     "synopsis": "Un apprenti Sherlock Holmes se réfugie dans l'imaginaire du cinéma pour devenir le héros de ses rêves... Dans ce moyen métrage muet de 1924, parmi les plus inventifs de Buster Keaton, les gags s'insèrent avec fluidité dans l'histoire, s'enchaînant à un rythme effréné."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Prisoners",
+    "year": 2013,
+    "duration": "2h33",
+    "genres": ["Thriller", "Crime", "Enquête"],
+    "trailer": "https://www.youtube.com/watch?v=bpXfcTF6iVk",
+    "synopsis": "Dans la banlieue de Boston, deux fillettes de six ans, Anna et Joy, ont disparu. Le détective Loki privilégie la thèse du kidnapping suite au témoignage de Keller, le père d'Anna. Le suspect numéro un est rapidement arrêté mais est relâché quelques jours plus tard faute de preuve, entraînant la fureur de Keller. Aveuglé par sa douleur, le père dévasté se lance alors dans une course contre la montre pour retrouver les enfants disparus."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Zodiac",
+    "year": 2007,
+    "duration": "2h37",
+    "genres": ["Thriller", "Crime", "Enquête"],
+    "trailer": "https://www.youtube.com/watch?v=yNncHPl1UXg",
+    "synopsis": "Zodiac, l'insaisissable tueur en série qui sévit à la fin des années 60 et répandit la terreur dans la région de San Francisco, fut le Jack l'Eventreur de l'Amérique. Prodigue en messages cryptés, il semait les indices comme autant de cailloux blancs, et prenait un malin plaisir à narguer la presse et la police. Robert Graysmith, jeune et timide dessinateur de presse, se lance corps et âmes dans ce qui deviendra, l'enquête de sa vie."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
+    "title": "No country for old men",
+    "year": 2007,
+    "duration": "2h02",
     "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "trailer": "https://www.youtube.com/watch?v=38A__WT3-o0",
+    "synopsis": "À la frontière qui sépare le Texas du Mexique, les trafiquants de drogue ont depuis longtemps remplacé les voleurs de bétail. Lorsque Llewelyn Moss tombe sur une camionnette abandonnée, cernée de cadavres, il ne sait rien de ce qui a conduit à ce drame. Quand il prend les deux millions de dollars qu'il découvre à l'intérieur du véhicule, il n'a pas la moindre idée de ce que cela va provoquer. Moss a déclenché une réaction en chaîne d'une violence inouïe."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "The Chaser",
+    "year": 2008,
+    "duration": "2h05",
+    "genres": ["Thriller", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=t20zhdWoBzQ",
+    "synopsis": "Joong-ho, ancien flic devenu proxénète, reprend du service lorsqu'il se rend compte que ses filles disparaissent les unes après les autres. Très vite, il réalise qu'elles avaient toutes rencontré le même client, identifié par les derniers chiffres de son numéro de portable. Joong-ho se lance alors dans une chasse à l'homme, persuadé qu'il peut encore sauver Mi-jin, la dernière victime du tueur."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Collatéral",
+    "year": 2004,
+    "duration": "2h00",
+    "genres": ["Thriller", "Action"],
+    "trailer": "https://www.youtube.com/watch?v=JlcX_GXtf40",
+    "synopsis": "Le trajet de routine de Max, taxi de nuit à Los Angeles, prend une tournure sombre lorsqu'il réalise que son passager est un tueur à gages, qui profite de ses services pour commettre des meurtres."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Fargo",
+    "year": 1996,
+    "duration": "1h38",
+    "genres": ["Thriller", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=qZGA2insxDs",
+    "synopsis": "Ecrasé par ses dettes, Jerry tente d'escroquer son beau-père en kidnappant sa femme. Pourtant, les choses ne se déroulent pas comme prévu..."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Les Diaboliques",
+    "year": 1955,
+    "duration": "1h57",
+    "genres": ["Thriller", "Drame", "Policier"],
+    "trailer": "https://www.youtube.com/watch?v=tK3M6wbnG-E",
+    "synopsis": "Dans une institution destinée à l'éducation des jeunes garçons, Christina et Nicole, respectivement épouse et maîtresse du directeur Michel Delasalle, s'associent afin d'assassiner l'homme qu'elles ont fini par haïr."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "The Game",
+    "year": 1997,
+    "duration": "2h08",
+    "genres": ["Thriller", "Mystère", "Enquête"],
+    "trailer": "https://www.youtube.com/watch?v=Uqry1e3Kf7w",
+    "synopsis": "Nicholas Van Orton, un richissime homme d’affaires reçoit comme cadeau d’anniversaire de la part de son frère Conrad une invitation à participer à un jeu d’un genre nouveau. D’abord sceptique, il se laisse tenter par cette aventure. Cette partie se révèle être un engrenage aux mécanismes diaboliques..."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "J'ai rencontré le diable",
+    "year": 2011,
+    "duration": "2h21",
+    "genres": ["Thriller", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=GJMRkwnXf94",
+    "synopsis": "Kyung-Chul est un dangereux psychopathe qui tue pour le plaisir. La police le traque depuis un long moment, mais semble incapable de l’attraper. Un jour, Joo-Yeon, la fille d’un Chef de police à la retraite devient sa proie et est retrouvé morte, atrocement mutilée. Son fiancé Soo-Hyun, un agent de protection, décide de traquer le meurtrier lui-même. Il promet de tout faire pour se venger, même si cela signifie qu’il doit devenir un monstre lui-même."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Mystic River",
+    "year": 2003,
+    "duration": "2h18",
+    "genres": ["Thriller", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=ZUPnGySXuv4",
+    "synopsis": "En 1975, alors qu'il joue avec ses amis Jimmy et Sean dans une rue de Boston, Dave, un enfant de 11 ans, est kidnappé. Il parvient à s'enfuir quatre jours plus tard. Les garçons se perdent de vue. Vingt-cinq ans après, Sean, devenu policier, enquête sur le meurtre de Katie, la fille de Jimmy. Son collègue Whitey porte ses soupçons sur Dave, l'une des dernières personnes à avoir croisé Katie dans un bar."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Millénium",
+    "year": 2012,
+    "duration": "2h38",
+    "genres": ["Thriller", "Drame", "Policier", "Film Noir"],
+    "trailer": "https://www.youtube.com/watch?v=Z2KYr3rOHRI",
+    "synopsis": "Mikael Blomkvist, brillant journaliste d'investigation, est engagé par un des plus puissants industriels de Suède, Henrik Vanger, pour enquêter sur la disparition de sa nièce, Harriet, survenue des années auparavant. Vanger est convaincu qu'elle a été assassinée par un membre de sa propre famille. Lisbeth Salander, jeune femme rebelle mais enquêtrice exceptionnelle, est chargée de se renseigner sur Blomkvist..."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Basic Instinct",
+    "year": 1992,
+    "duration": "2h07",
+    "genres": ["Thriller", "Drame", "Erotique"],
+    "trailer": "https://www.youtube.com/watch?v=gBQ1zdGjeAw",
+    "synopsis": "A San Francisco, l'inspecteur Nick Curran enquête sur le meurtre du chanteur Johnny Boz, tué à coups de pic à glace après de torrides ébats. La dernière femme vue en sa compagnie, est la riche et sulfureuse romancière Catherine Tramell. Fait étrange, le dernier roman de Catherine comporte des chapitres qui rappellent des crimes récemment commis. Aux yeux de Nick, elle devient dès lors la principale suspecte."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "L.A. Confidential",
+    "year": 1997,
+    "duration": "2h13",
+    "genres": ["Thriller", "Drame", "Policier"],
+    "trailer": "https://www.youtube.com/watch?v=6sOXrY5yV4g",
+    "synopsis": "Los Angeles, années 50. Alors que la ville est sujette à une vague de règlements de comptes après la chute du caïd Mickey Cohen, la police criminelle se mobilise toute entière sur l'affaire de L'Oiseau de nuit, un massacre au cours duquel est tombé un ancien flic. Trois inspecteurs au style radicalement différent vont être amenés à coopérer pour démêler les fils d'une histoire plus compliquée qu'il n'y paraît..."
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Entre le ciel et l'enfer",
+    "year": 1976,
+    "duration": "2h23",
+    "genres": ["Thriller", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=Rxivc9xygm8",
+    "synopsis": "Industriel au sein d’une grande fabrique de chaussures, Kingo Gondo décide de rassembler tous ses biens afin de racheter les actions nécessaires pour devenir majoritaire. C’est à ce moment-là qu’il apprend que son fils Jun a été enlevé et qu’une rançon est exigée. Se produit alors un véritable coup de théâtre : ce n’est pas Jun mais Shin’ichi, le fils de son chauffeur, qui a été enlevé. Gondo est désormais face à un dilemme : doit-il dépenser toute sa fortune pour sauver l’enfant d’un autre ?"
   },
   {
-    "title": "AAAA",
-    "year": 9999,
-    "duration": "2h50",
-    "genres": ["Thriller", "Crime", "Action"],
-    "trailer": "AAAAAAAAAAAAA",
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    "title": "Le Limier",
+    "year": 1973,
+    "duration": "2h18",
+    "genres": ["Thriller", "Mystère", "Enquête"],
+    "trailer": "https://www.youtube.com/watch?v=XBRMaieaLdU&t=1s",
+    "synopsis": "Sir Andrew Wyke, un riche auteur de romans policiers anglais, a invité Milo Tindle, un coiffeur londonien d'origine plus modeste, à lui rendre visite dans sa somptueuse résidence, aménagée et décorée avec un art consommé du trompe-l'oeil. Maniaque de l'énigme et de la mystification, cachant mal son mépris pour ce parvenu dont il connaît la liaison avec son épouse Marguerite, Andrew lui propose de simuler un cambriolage pour toucher l'argent de l'assurance. Milo, impressionné par Wyke, accepte…"
   }
 ]
