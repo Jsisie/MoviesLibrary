@@ -5,7 +5,7 @@
     "duration": "2h29",
     "genres": ["SF", "Aventure", "Philosophique"],
     "trailer": "https://www.youtube.com/watch?v=5px2VwyCeWEE",
-    "platforms": ["Canal+", "Sooner", "Molotov", "SFR Play", "Max", "DVD"],
+    "platforms": ["DVD", "Canal+", "Max", "Sooner", "Molotov", "SFR Play"],
     "synopsis": "À l'aube de l'Humanité, dans le désert africain, une tribu de primates subit les assauts répétés d'une bande rivale, qui lui dispute un point d'eau. La découverte d'un monolithe noir inspire au chef des singes assiégés un geste inédit et décisif. En 2001, quatre millions d'années plus tard, un vaisseau spatial évolue en orbite lunaire au rythme langoureux du \"Beau Danube Bleu\".",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -49,7 +49,7 @@
     "duration": "2h19",
     "genres": ["SF", "Aventure"],
     "trailer": "https://www.youtube.com/watch?v=7cCVYAcIIAo",
-    "platforms": ["Disney+", "DVD"],
+    "platforms": ["DVD", "Disney+"],
     "synopsis": "Heurté par un objet non identifié, Le Montana, un sous-marin nucléaire, se retrouve sur le rebord d'une faille, à plusieurs centaines de mètres de profondeur. Pour explorer le bateau coulé, la marine américaine réquisitionne la plate-forme pétrolière expérimentale Deepcore.",
     "collections": ["watchlist"],
     "vu": false
@@ -60,7 +60,7 @@
     "duration": "1h54",
     "genres": ["Horreur", "SF", "Aliens"],
     "trailer": "https://www.youtube.com/watch?v=Ipv1y-Phi7A",
-    "platforms": ["Disney+", "DVD"],
+    "platforms": ["DVD", "Disney+"],
     "synopsis": "Unique survivante du dernier massacre perpétré par des monstres à l'insatiable appétit, Ripley échoue dans une colonie pénitentiaire sinistre, sur la planète Fiorina 161. L'une des monstrueuses créatures l'a suivie, cachée dans son vaisseau spatial.",
     "collections": ["halloween"],
     "vu": false
@@ -71,7 +71,7 @@
     "duration": "2h07",
     "genres": ["Thriller", "Drame", "Erotique"],
     "trailer": "https://www.youtube.com/watch?v=gBQ1zdGjeAw",
-    "platforms": ["Canal+", "Molotov", "SFR Play", "DVD"],
+    "platforms": ["DVD", "Canal+", "Molotov", "SFR Play"],
     "synopsis": "A San Francisco, l'inspecteur Nick Curran enquête sur le meurtre du chanteur Johnny Boz, tué à coups de pic à glace après de torrides ébats. La dernière femme vue en sa compagnie, est la riche et sulfureuse romancière Catherine Tramell. Fait étrange, le dernier roman de Catherine comporte des chapitres qui rappellent des crimes récemment commis. Aux yeux de Nick, elle devient dès lors la principale suspecte.",
     "collections": ["watchlist"],
     "vu": false
@@ -82,7 +82,7 @@
     "duration": "2h06",
     "genres": ["Action", "Super-héros"],
     "trailer": "https://www.youtube.com/watch?v=TlbtLfWvFbo",
-    "platforms": ["Max", "DVD"],
+    "platforms": ["DVD", "Max"],
     "synopsis": "Non seulement Batman doit affronter le Pingouin, monstre génétique doté d'une intelligence à toute épreuve, qui sème la terreur mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -93,7 +93,7 @@
     "duration": "1h32",
     "genres": ["Comédie", "Fantômes"],
     "trailer": "https://www.youtube.com/watch?v=UCHQKFv_tME",
-    "platforms": ["Max", "DVD"],
+    "platforms": ["DVD", "Max"],
     "synopsis": "Adam et Barbara Maitland connaissent un bonheur sans nuage dans leur jolie maison quand un accident de la route les expédie dans l'autre monde. Devenus fantômes, ils reviennent hanter leur demeure. Cependant, leur calme est bientôt troublé par l'arrivée des nouveaux propriétaires, une famille de bourgeois new-yorkais excentriques et bruyants. Adam et Barbara ont bien l'intention de les faire déguerpir.",
     "collections": ["halloween"],
     "vu": false
@@ -148,7 +148,7 @@
     "duration": "1h37",
     "genres": ["Comédie", "Enquête"],
     "trailer": "https://www.youtube.com/watch?v=KEXdWfsKZ1k",
-    "platforms": ["Paramount+", "DVD"],
+    "platforms": ["DVD", "Paramount+"],
     "synopsis": "Adaptation cinématographique du célèbre jeu de société. Six invités, réunis dans une mystérieuse maison, vont coopérer pour résoudre un meurtre.",
     "collections": ["halloween"],
     "vu": false
@@ -192,7 +192,7 @@
     "duration": "1h42",
     "genres": ["Noir et Blanc", "Sketchs"],
     "trailer": "https://www.youtube.com/watch?v=8UCJz617E8s",
-    "platforms": ["Plex", "DVD"],
+    "platforms": ["DVD", "Plex"],
     "synopsis": "Un architecte arrive dans un cottage où des invités lui semblent familiers ; chacun raconte une histoire étrange, entre rêves et réalité.",
     "collections": ["halloween"],
     "vu": false
@@ -280,7 +280,7 @@
     "duration": "1h28",
     "genres": ["Comédie", "Aventure", "Animation", "Stop-motion"],
     "trailer": "https://www.youtube.com/watch?v=ipUj8dELx4U",
-    "platforms": ["Rakuten TV", "DVD"],
+    "platforms": ["DVD", "Rakuten TV"],
     "synopsis": "M. Fox est le plus rusé des voleurs de poules. Une fois marié, son épouse Felicity lui demande de mettre fin à ses activités incompatibles avec la vie d'un honorable père de famille. La mort dans l'âme, il se fait alors engager comme éditorialiste dans un journal local où il s'ennuie terriblement.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -335,7 +335,7 @@
     "duration": "2h06",
     "genres": ["SF", "Romance", "Drame"],
     "trailer": "https://www.youtube.com/watch?v=dJTU48_yghs",
-    "platforms": ["Canal+", "Molotov", "SFR Play", "Max"],
+    "platforms": ["Canal+", "Max", "Molotov", "SFR Play"],
     "synopsis": "En 2025 à Los Angeles, Theodore travaille pour un site web comme écrivain public, rédigeant des lettres manuscrites de toutes sortes - familiales, amoureuses, etc. - pour d'autres. Son épouse Catherine et lui ont rompu depuis bientôt un an mais il ne se décide pas à signer les papiers du divorce. Dans un état de dépression qui perdure, il installe un nouveau système d'exploitation OS1, auquel il donne une voix féminine.",
     "collections": ["watchlist"],
     "vu": false
@@ -401,7 +401,7 @@
     "duration": "1h47",
     "genres": ["Horreur", "SF"],
     "trailer": "https://www.youtube.com/watch?v=KUb0eR381TM",
-    "platforms": ["Disney+", "DVD"],
+    "platforms": ["DVD", "Disney+"],
     "synopsis": "Pour fêter leur anniversaire de mariage et resserrer du même coup des liens familiaux qui battent de l'aile, toute la famille Carter monte en voiture. Destination : la Californie. Sur les conseils d'un pompiste pas très net, ils vont prendre un raccourci dans le désert du Nouveau-Mexique qui les conduira vers les pires cauchemars.",
     "collections": ["halloween"],
     "vu": false
@@ -412,7 +412,7 @@
     "duration": "1h39",
     "genres": ["Comédie", "Gothique"],
     "trailer": "https://www.youtube.com/watch?v=RccHrEuIsCo",
-    "platforms": ["Paramount+", "DVD"],
+    "platforms": ["DVD", "Paramount+"],
     "synopsis": "Dans un vieux et lugubre manoir vit la famille Addams, dont les membres, tous plus fous et délirants les uns que les autres, ressemblent d'adantage à des morts qu'à des vivants. Il y a 25 ans, l'oncle Fester a disparu des suites d'une histoire de rivalité amoureuse. Tous le regrettent, et voici qu'il réapparaît.",
     "collections": ["halloween"],
     "vu": false
@@ -434,7 +434,7 @@
     "duration": "2h15",
     "genres": ["Thriller", "Action"],
     "trailer": "https://www.youtube.com/watch?v=AELNPQcR6lE",
-    "platforms": ["Netflix", "Molotov", "Max"],
+    "platforms": ["Netflix", "Max", "Molotov"],
     "synopsis": "Marseille. 1975. Pierre Michel, jeune magistrat venu de Metz avec femme et enfants, est nommé juge du grand banditisme. Il décide de s'attaquer à la \"French Connection,\" une organisation mafieuse qui exporte l'héroïne dans le monde entier.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -445,7 +445,7 @@
     "duration": "1h41",
     "genres": ["Animation", "Comédie", "Aventure"],
     "trailer": "https://www.youtube.com/watch?v=NebLEBYigm4",
-    "platforms": ["Netflix", "Disney+"],
+    "platforms": ["Disney+", "Netflix"],
     "synopsis": "Lord Business, un horrible despote, a réussi à mettre la main sur le Cragel, une arme extrêmement puissante grâce à laquelle ses pouvoirs démoniaques sont sans limites. Heureusement, selon une prophétie, il existe, cachée, on ne sait où, une pièce de résistance capable de désarmer le Cragel. La prophétie prédite aussi qu'un être spécial au visage jaune citron débusquera cette pièce, déjouera le Cragel, sauvant ainsi le royaume tout entier.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -456,7 +456,7 @@
     "duration": "1h56",
     "genres": ["SF", "Thriller"],
     "trailer": "https://www.youtube.com/watch?v=8yRkE2EJD_g",
-    "platforms": ["Paramount+", "DVD"],
+    "platforms": ["DVD", "Paramount+"],
     "synopsis": "Dans le New Jersey, Ray Ferrier, docker divorcé, n'entretient plus que des relations épisodiques avec son fils Robbie, 17 ans, et sa fille Rachel, 11 ans. Un matin, son ex-épouse lui confie la garde de leurs deux enfants le temps de quelques jours. Mais le soir même, un orage électromagnétique éclate et déclenche d'étranges phénomènes. Bientôt, d'énormes engins mécaniques surgissent de terre et désintègrent les êtres humains dans le chaos le plus total.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -467,7 +467,7 @@
     "duration": "28mn",
     "genres": ["SF", "Drame", "Documentaire", "Noir et Blanc"],
     "trailer": "https://www.youtube.com/watch?v=WstrUci5Fbg",
-    "platforms": ["INA madelen", "Mubi"],
+    "platforms": ["Mubi", "INA madelen"],
     "synopsis": "À la suite de la Troisième Guerre mondiale qui a détruit Paris, des survivants s'installent dans les souterrains de Chaillot. Pour sauver cette humanité condamnée, on décide de projeter dans le temps des émissaires qui appelleraient le passé et l'avenir au secours du présent. Un homme, envoyé dans le passé, y rencontre une femme et découvre avec elle le bonheur d'instants partagés. Devant le succès de ces expériences, on tente alors de l'acheminer dans le futur.",
     "collections": ["watchlist"],
     "vu": false
@@ -478,7 +478,7 @@
     "duration": "2h08",
     "genres": ["Comédie musicale", "Romance"],
     "trailer": "https://www.youtube.com/watch?v=djoFKskdBZc",
-    "platforms": ["Max", "DVD"],
+    "platforms": ["DVD", "Max"],
     "synopsis": "Au coeur de Los Angeles, une actrice en devenir prénommée Mia sert des cafés entre des auditions. De son côté, Sebastian, passionné de jazz, joue du piano dans des clubs miteux pour assurer sa subsistance. Tous deux sont bien loin de la vie rêvée à laquelle ils aspirent, mais ils développent des sentiments amoureux l'un pour l'autre.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -544,7 +544,7 @@
     "duration": "1h18",
     "genres": ["Twist", "Mystère", "Noir et Blanc", "Muet"],
     "trailer": "https://www.youtube.com/watch?v=Gipx80OsTbc",
-    "platforms": ["Bloodstream", "Artiflix", "DVD"],
+    "platforms": ["DVD", "Bloodstream", "Artiflix"],
     "synopsis": "Le sinistre Dr Caligari sème la terreur dans une petite ville du nord de l'Allemagne à l'aide d'un somnambule nommé Cesare. Lors d'une fête foraine, Cesare prédit l'avenir au public et annonce à Alan, un jeune homme, qu'il va bientôt mourir. La nuit suivante, Alan est assassiné. Son ami Francis soupçonne le Dr Caligari d'être derrière ce meurtre.",
     "collections": ["halloween"],
     "vu": false
@@ -599,7 +599,7 @@
     "duration": "1h53",
     "genres": ["Horreur", "Enigme", "Psychologique"],
     "trailer": "https://www.youtube.com/watch?v=yF400upuei8",
-    "platforms": ["Canal+", "Molotov", "SFR Play", "DVD"],
+    "platforms": ["DVD", "Canal+", "Molotov", "SFR Play"],
     "synopsis": "Un vétéran du Vietnam est torturé par ses souvenirs de la guerre, hanté par la mort de son fils et tourmenté par ses démons intérieurs.",
     "collections": ["halloween"],
     "vu": false
@@ -731,7 +731,7 @@
     "duration": "1h50",
     "genres": ["SF", "Aliens", "Comédie"],
     "trailer": "https://www.youtube.com/watch?v=dD9EbK6-h4k",
-    "platforms": ["Max", "DVD"],
+    "platforms": ["DVD", "Max"],
     "synopsis": "Effervescence sur la planète Terre. Les petits bonshommes verts ont enfin décidé de nous rendre visite. Ils sont sur le point d'atterrir dans leurs rutilantes soucoupes. La fièvre des grands jours s'empare de l'Amérique dans une comédie de science-fiction nostalgique des années cinquante.",
     "collections": ["halloween"],
     "vu": false
@@ -797,7 +797,7 @@
     "duration": "2h07",
     "genres": ["Comédie musicale", "Romance"],
     "trailer": "https://www.youtube.com/watch?v=vBgxa38EqQA",
-    "platforms": ["Netflix", "Disney+"],
+    "platforms": ["Disney+", "Netflix"],
     "synopsis": "À la fin du XIXe siècle, dans le Paris de la Belle Époque, Christian, un jeune poète désargenté, s'installe dans le quartier de Montmartre et découvre un univers où se mêlent sexe, drogue et french cancan, mais se rebelle contre ce milieu décadent en menant une vie de bohème. Il rêve d'écrire une grande pièce, et le peintre Henri de Toulouse-Lautrec est prêt à lui donner sa chance.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -896,7 +896,7 @@
     "duration": "1h39",
     "genres": ["Western", "Action"],
     "trailer": "https://www.youtube.com/watch?v=OOxuXA2oviY",
-    "platforms": ["Molotov", "SFR Play", "DVD"],
+    "platforms": ["DVD", "Molotov", "SFR Play"],
     "synopsis": "Lord Business, un horrible despote, a réussi à mettre la main sur le Cragel, une arme extrêmement puissante grâce à laquelle ses pouvoirs démoniaques sont sans limites. Heureusement, selon une prophétie, il existe, cachée, on ne sait où, une pièce de résistance capable de désarmer le Cragel. La prophétie prédite aussi qu'un être spécial au visage jaune citron débusquera cette pièce, déjouera le Cragel, sauvant ainsi le royaume tout entier.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -973,7 +973,7 @@
     "duration": "1h41",
     "genres": ["Slasher", "Parodique"],
     "trailer": "https://www.youtube.com/watch?v=tV4PTwciTuQ",
-    "platforms": ["Paramount+", "DVD"],
+    "platforms": ["DVD", "Paramount+"],
     "synopsis": "À Woodsboro, une lycéenne devient la cible d’un tueur masqué, tandis que la journaliste Gale Weathers enquête sur les meurtres.",
     "collections": ["halloween"],
     "vu": false
@@ -1050,7 +1050,7 @@
     "duration": "2h15",
     "genres": ["SF", "Action", "Guerre"],
     "trailer": "https://www.youtube.com/watch?v=zPYuV_jGk7M",
-    "platforms": ["Disney+", "DVD"],
+    "platforms": ["DVD", "Disney+"],
     "synopsis": "Dans un futur lointain, les pays de la Terre se sont regroupés au sein de la Fédération, un gouvernement mondial. Cette Fédération se lance alors dans la conquête de l'espace. Les terriens colonisent des planètes et explorent de nouveaux systèmes planétaires. Ils entrent également en relation avec des civilisations extraterrestres. Petit à petit, ils se trouvent menacés par l'une d'entre elles, la belliqueuse civilisation des Arachnides.",
     "collections": ["watchlist"],
     "vu": false
@@ -1127,7 +1127,7 @@
     "duration": "1h39",
     "genres": ["Comédie", "Aventure"],
     "trailer": "https://www.youtube.com/watch?v=sE-os0Vswsw",
-    "platforms": ["Disney+", "DVD"],
+    "platforms": ["DVD", "Disney+"],
     "synopsis": "Zero Mustafa, jeune réfugié politique venu de Salim-al-Jabat, réussit à se faire engager comme lobby boy au Grand Budapest Hotel, une institution située dans les montagnes de la république de Zubrowka. Le concierge de l'établissement, l'élégant M. Gustave, qui veille sur ce mythique palace, le prend sous son aile. Ensemble, ils se rendent au domicile de Mme D., une habituée du Grand Budapest.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -1171,7 +1171,7 @@
     "duration": "2h26",
     "genres": ["Horreur", "Mystère", "Psychologique"],
     "trailer": "https://www.youtube.com/watch?v=S014oGZiSdI",
-    "platforms": ["Sooner", "Molotov", "SFR Play", "Max", "DVD"],
+    "platforms": ["DVD", "Max", "Sooner", "Molotov", "SFR Play"],
     "synopsis": "Jack Torrance, gardien d'un hôtel fermé l'hiver, sa femme et son fils Danny s'apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le Shining, est effrayé à l'idée d'habiter ce lieu, théâtre marqué par de terribles évènements passés...",
     "collections": ["halloween"],
     "vu": false
@@ -1193,7 +1193,7 @@
     "duration": "1h48",
     "genres": ["Comédie", "Crime"],
     "trailer": "https://www.youtube.com/watch?v=0WTwVpEEMps",
-    "platforms": ["Sooner", "Molotov", "Paramount+", "SFR Play"],
+    "platforms": ["Paramount+", "Sooner", "Molotov", "SFR Play"],
     "synopsis": "La belle Wanda, assistée de Ken le bégayeur et d'Otto son stupide amant, ont réussi un joli hold up grâce à George, dit le cerveau. Mais celui-ci, trop vite dénoncé par Wanda, moisit en prison, avec le secret de la cachette du butin.",
     "collections": ["watchlist"],
     "vu": false
@@ -1204,7 +1204,7 @@
     "duration": "1h48",
     "genres": ["Action", "Vampires"],
     "trailer": "https://www.youtube.com/watch?v=03S7EaoWkqQ",
-    "platforms": ["Paramount+", "DVD"],
+    "platforms": ["DVD", "Paramount+"],
     "synopsis": "Deux frères meurtriers et voleurs de banque pensent avoir réussi leur coup lorsqu'ils kidnappent un ancien pasteur en vacances avec ses deux adolescents et se servent de leur maison motorisée pour traverser la frontière.",
     "collections": ["halloween"],
     "vu": false
@@ -1215,7 +1215,7 @@
     "duration": "1h26",
     "genres": ["Documenteur", "Comédie", "Vampires"],
     "trailer": "https://www.youtube.com/watch?v=IAZEWtyhpes&t=15s",
-    "platforms": ["Molotov", "Shadowz", "DVD"],
+    "platforms": ["DVD", "Shadowz", "Molotov"],
     "synopsis": "Comment fait-on quand on est Vampires depuis des siècles et qu'on doit discrètement vivre en coloc en 2015 dans la banlieue de Limoges ? C'est ce que nous propose de découvrir une équipe de documentaire, en partageant l'intimité d'une bande de potes suceurs de sang ! Geoffroy, Miguel, Aymeric et Bernard nous ouvrent les portes de leur coeur et celle de leur quotidien un tout petit peu complexe.",
     "collections": ["halloween"],
     "vu": false
@@ -1251,6 +1251,28 @@
     "platforms": ["Netflix", "Max"],
     "synopsis": "Zodiac, l'insaisissable tueur en série qui sévit à la fin des années 60 et répandit la terreur dans la région de San Francisco, fut le Jack l'Eventreur de l'Amérique. Prodigue en messages cryptés, il semait les indices comme autant de cailloux blancs, et prenait un malin plaisir à narguer la presse et la police. Robert Graysmith, jeune et timide dessinateur de presse, se lance corps et âmes dans ce qui deviendra, l'enquête de sa vie.",
     "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Captain Fantastic",
+    "year": 2016,
+    "duration": "1h58",
+    "genres": ["Drame", "Comédie", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=3WH1IDjy3c4",
+    "platforms": ["DVD", "Sooner"],
+    "synopsis": "Dans les forêts reculées du nord-ouest des Etats-Unis, vivant isolé de la société, un père dévoué a consacré sa vie toute entière à faire de ses six jeunes enfants d’extraordinaires adultes. Mais quand le destin frappe sa famille, ils doivent abandonner ce paradis qu’il avait créé pour eux. La découverte du monde extérieur va l’obliger à questionner ses méthodes d’éducation et remettre en cause tout ce qu’il leur a appris.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Before Midnight",
+    "year": 2013,
+    "duration": "1h48",
+    "genres": ["Drame", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=d3Pxx_jfsiw",
+    "platforms": ["DVD"],
+    "synopsis": "Céline et Jesse partent en Grèce en famille. Ils se sont offerts l'opportunité d'être ensemble sans les enfants, enfin tranquilles. Mais les disputes rancunières commencent.",
+    "collections": ["louison_et_leo"],
     "vu": false
   }
 ]
