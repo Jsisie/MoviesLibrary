@@ -9,52 +9,72 @@
 	<meta name="keywords" content="css3, transforms, shadow, shading, 3d, box shadow" />
 	<meta name="author" content="Codrops" />
 	<link rel="shortcut icon" href="../favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@300;400;900&family=Mountains+of+Christmas:wght@700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
 	<link href="https://fonts.cdnfonts.com/css/the-halloween" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<script src="script.js"></script>
 </head>
-<body onload="initApp()">
+<body class="theme-watchlist" onload="initApp()">
 	<div class="container">
 		<header>
 			<h1 id="titre_principal"><b></b><br></h1>
 
-			<!-- === Contrôles (collection / filtres / tri) === -->
+			<!-- Barre compacte : collection toujours visible, le reste dans "Filtres" -->
 			<nav id="main-controls" aria-label="Filtrage et tri des films">
-				<!-- Collection (filtre les films déjà chargés) -->
-				<div class="control-group" id="collection-control">
-					<label for="collection-select">Collection</label>
-					<select id="collection-select" title="Choisir la collection">
-						<option value="halloween">🎃 Halloween</option>
-						<option value="louison_et_leo">👩‍❤️‍👨 Louison & Léo</option>
-						<option value="christmas">🎄 Noël</option>
-						<option value="watchlist" selected>⭐ Watchlist</option>
-					</select>
+				<div class="controls-bar">
+					<div class="control-group" id="collection-control">
+						<label for="collection-select">Collection</label>
+						<select id="collection-select" title="Choisir la collection">
+							<option value="halloween">🎃 Halloween</option>
+							<option value="louison_et_leo">👩‍❤️‍👨 Louison & Léo</option>
+							<option value="christmas">🎄 Noël</option>
+							<option value="watchlist" selected>⭐ Watchlist</option>
+						</select>
+					</div>
+
+					<button type="button" id="filters-toggle" aria-expanded="false" aria-controls="filters-panel">
+						Filtres
+					</button>
 				</div>
 
-				<!-- Filtre genre -->
-				<div class="control-group" id="genre-control">
-					<label for="genre-select">Genre</label>
-					<select id="genre-select" title="Filtrer par genre">
-						<option value="all" selected>Tous</option>
-						<!-- processed genres -->
-					</select>
-				</div>
+				<div id="filters-panel" class="filters-panel" hidden>
+					<div class="control-group" id="genre-control">
+						<label for="genre-select">Genre</label>
+						<select id="genre-select" title="Filtrer par genre">
+							<option value="all" selected>Tous</option>
+						</select>
+					</div>
 
-				<!-- Tri -->
-				<div class="filter-group">
-					<label>
-						<input type="radio" name="sort" value="yearAsc" checked>
-						<span>Année ↑</span>
-					</label>
-					<label>
-						<input type="radio" name="sort" value="yearDesc">
-						<span>Année ↓</span>
-					</label>
-				</div>
+					<div class="control-group" id="platform-control">
+						<label for="platform-select">Plateforme</label>
+						<select id="platform-select" title="Filtrer par plateforme">
+							<option value="all" selected>Toutes</option>
+						</select>
+					</div>
 
+					<div class="control-group" id="duration-control">
+						<label for="duration-select">Durée</label>
+						<select id="duration-select" title="Filtrer par durée">
+							<option value="all" selected>Toutes</option>
+							<option value="short">&lt; 1h30</option>
+							<option value="medium">1h30 – 2h</option>
+							<option value="long">&gt; 2h</option>
+						</select>
+					</div>
+
+					<div class="control-group" id="sort-control">
+						<label for="sort-select">Trier</label>
+						<select id="sort-select" title="Trier les films">
+							<option value="yearAsc" selected>Année croissant</option>
+							<option value="yearDesc">Année décroissant</option>
+							<option value="durationAsc">Durée croissant</option>
+							<option value="durationDesc">Durée décroissant</option>
+							<option value="titleAsc">Titre A–Z</option>
+							<option value="titleDesc">Titre Z–A</option>
+						</select>
+					</div>
+				</div>
 			</nav>
-			<!-- /controls -->
 		</header>
 
 		<div class="wrapper">

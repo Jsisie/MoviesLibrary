@@ -1,40 +1,165 @@
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 /*************************************
-Title, Header and Body
+Thèmes par collection (classe sur <body>)
+Pour un nouveau thème : body.theme-xxx { --bg: ...; --title-font: ...; }
 **************************************/
 
 body {
-	background: #ff7518;
-	font-family: 'Lato', Arial, sans-serif;
-	color: #ff7518;
+	--bg: #14324a;
+	--bg-2: #1a1540;
+	--title-color: #f7f0e4;
+	--title-font: 'Outfit', 'Lato', sans-serif;
+	--title-shadow: none;
+	--title-letter-spacing: 0.08em;
+	--font-body: 'Lato', Arial, sans-serif;
+	--controls-bg: rgba(12, 22, 40, 0.75);
+	--controls-border: rgba(212, 180, 131, 0.28);
+	--label-color: #e8dcc8;
+	--select-bg: #15263d;
+	--select-color: #f7f0e4;
+	--select-border: #c4a574;
+	--select-hover-bg: #1e3550;
+	--accent: #d4b483;
+	--button-bg: #15263d;
+
+	background: linear-gradient(165deg, var(--bg) 0%, var(--bg-2) 100%);
+	background-attachment: fixed;
+	font-family: var(--font-body);
+	color: var(--accent);
+	transition: background 0.45s ease;
 }
+
+body.theme-watchlist {
+	--bg: #14324a;
+	--bg-2: #1a1540;
+	--title-color: #f7f0e4;
+	--title-font: 'Outfit', 'Lato', sans-serif;
+	--title-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+	--title-letter-spacing: 0.12em;
+	--controls-bg: rgba(12, 22, 40, 0.75);
+	--controls-border: rgba(212, 180, 131, 0.28);
+	--label-color: #e8dcc8;
+	--select-bg: #15263d;
+	--select-color: #f7f0e4;
+	--select-border: #c4a574;
+	--select-hover-bg: #1e3550;
+	--accent: #d4b483;
+	--button-bg: #15263d;
+}
+
+body.theme-halloween {
+	--bg: #ff7518;
+	--bg-2: #7a120c;
+	--title-color: #e10c0c;
+	--title-font: 'The Halloween', 'Lato', sans-serif;
+	--title-shadow: 2px 2px 0 #2b0900, 0 0 18px rgba(0, 0, 0, 0.25);
+	--title-letter-spacing: 0.04em;
+	--controls-bg: rgba(0, 0, 0, 0.4);
+	--controls-border: rgba(255, 255, 255, 0.2);
+	--label-color: #ffe8c2;
+	--select-bg: #2b0900;
+	--select-color: #ffb347;
+	--select-border: #ff7518;
+	--select-hover-bg: #4b1a03;
+	--accent: #ff7518;
+	--button-bg: #2b0900;
+}
+
+body.theme-louison_et_leo {
+	--bg: #f6d5d8;
+	--bg-2: #efc9d0;
+	--title-color: #8a2a4a;
+	--title-font: 'Great Vibes', cursive;
+	--title-shadow: 0 6px 18px rgba(138, 42, 74, 0.18);
+	--title-letter-spacing: 0.02em;
+	--font-body: 'Lato', Arial, sans-serif;
+	--controls-bg: rgba(255, 247, 249, 0.72);
+	--controls-border: rgba(138, 42, 74, 0.22);
+	--label-color: #8a2a4a;
+	--select-bg: #fff7f9;
+	--select-color: #5c1d33;
+	--select-border: #d48aa0;
+	--select-hover-bg: #ffe4ec;
+	--accent: #8a2a4a;
+	--button-bg: #fff7f9;
+}
+
+body.theme-christmas {
+	--bg: #0b3d2e;
+	--bg-2: #7a1c1c;
+	--title-color: #f0d078;
+	--title-font: 'Mountains of Christmas', 'Lato', cursive;
+	--title-shadow: 0 0 12px rgba(240, 208, 120, 0.35), 2px 2px 0 #5c1010;
+	--title-letter-spacing: 0.03em;
+	--controls-bg: rgba(8, 32, 24, 0.72);
+	--controls-border: rgba(240, 208, 120, 0.35);
+	--label-color: #f0d078;
+	--select-bg: #123528;
+	--select-color: #f8e7b0;
+	--select-border: #c9a227;
+	--select-hover-bg: #1c4a38;
+	--accent: #f0d078;
+	--button-bg: #123528;
+}
+
+/* Léger décor Noël (neige CSS, ne bloque pas les clics) */
+body.theme-christmas::before {
+	content: "";
+	pointer-events: none;
+	position: fixed;
+	inset: 0;
+	z-index: 0;
+	opacity: 0.45;
+	background-image:
+		radial-gradient(2px 2px at 12% 18%, #fff, transparent),
+		radial-gradient(2px 2px at 28% 42%, #fff, transparent),
+		radial-gradient(1.5px 1.5px at 46% 12%, #fff, transparent),
+		radial-gradient(2px 2px at 63% 58%, #fff, transparent),
+		radial-gradient(1.5px 1.5px at 81% 26%, #fff, transparent),
+		radial-gradient(2px 2px at 91% 72%, #fff, transparent),
+		radial-gradient(1px 1px at 18% 78%, #fff, transparent),
+		radial-gradient(2px 2px at 54% 88%, #fff, transparent);
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+}
+
+/*************************************
+Title, Header and Body
+**************************************/
 
 header {
 	position: relative;
 }
 
 #titre_principal {
-	font-family: 'Lato', system-ui, -apple-system, sans-serif; /* 'The Halloween', sans-serif; */
-	color : #1a1a1a;  /* #e10c0c; */
+	font-family: var(--title-font);
+	color: var(--title-color);
+	text-shadow: var(--title-shadow);
 	font-weight: 900;
 	font-size: clamp(2rem, 6vw, 3.5rem);
-    letter-spacing: 0.05em;
-	
-	text-align: center;        /* centre le texte */
-  	max-width: 100%;           /* empêche de dépasser */
-  	overflow-wrap: break-word; /* alternative plus moderne */
-  	margin: 0 auto;            /* centre dans le container */
-	word-break: normal; 
-  	overflow-wrap: normal; 
-  	white-space: normal;
+	letter-spacing: var(--title-letter-spacing);
+	text-align: center;
+	max-width: 100%;
+	margin: 0 auto;
+	word-break: normal;
+	overflow-wrap: normal;
+	white-space: normal;
+	transition: color 0.35s ease;
+}
+
+body.theme-louison_et_leo #titre_principal {
+	font-weight: 400;
+	font-size: clamp(2.6rem, 8vw, 4.6rem);
 }
 
 #titre_principal span {
-	color : #a20c0c;
+	color: var(--accent);
 	font-size: 50%;
 }
-
 .wrapper {
 	margin: 0 auto 0 auto;
 	padding-left: 11.7%; /* Espacement à gauche (entre écran gauche et first Card)*/
@@ -52,184 +177,105 @@ header {
 Filters / Selectors / Menu
 **************************************/
 
-/* === Position fixe du menu principal === */
-#main-controls {
-	position: fixed;            /* fixé à l’écran */
-	top: 20px;                  /* distance du haut */
-	right: 20px;                /* distance de la droite */
-	z-index: 1000;              /* passe au-dessus du contenu */
-	display: flex;
-	align-items: center;
-	gap: 12px;
-	background: rgba(0, 0, 0, 0.4);
-	border: 1px solid rgba(255, 255, 255, 0.2);
-	padding: 8px 12px;
-	border-radius: 10px;
-	backdrop-filter: blur(3px);
-	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-	animation: fadeInSlide 0.8s ease-out forwards; /* si tu as gardé l’animation */
+@keyframes fadeInSlide {
+	from {
+		opacity: 0;
+		transform: translateY(-10px) scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
+#main-controls {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 0;
+	min-width: 220px;
+	background: var(--controls-bg);
+	border: 1px solid var(--controls-border);
+	padding: 10px 12px;
+	border-radius: 12px;
+	backdrop-filter: blur(8px);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	animation: fadeInSlide 0.8s ease-out forwards;
+	opacity: 0;
+}
 
-/* Groupes individuels (label + select) */
+.controls-bar {
+	display: flex;
+	align-items: flex-end;
+	gap: 10px;
+}
+
 #main-controls .control-group {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	flex: 1;
 	font-size: 0.85em;
-	color: #fff;
+	color: var(--label-color);
 	font-weight: bold;
 }
 
-/* Labels */
 #main-controls label {
 	margin-bottom: 3px;
-	color: #ffe8c2;
-	font-family: 'Lato', sans-serif;
+	color: var(--label-color);
+	font-family: var(--font-body);
 	font-size: 0.8em;
-	text-shadow: 1px 1px 2px #000;
 }
 
-/* Selects stylisés */
-#main-controls select {
-	background-color: #2b0900;
-	color: #ffb347;
-	border: 1px solid #ff7518;
+#main-controls select,
+#filters-toggle {
+	background-color: var(--select-bg);
+	color: var(--select-color);
+	border: 1px solid var(--select-border);
 	border-radius: 6px;
-	padding: 5px 8px;
+	padding: 6px 8px;
 	font-size: 0.9em;
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
-	font-family: 'Lato', sans-serif;
+	font-family: var(--font-body);
+	width: 100%;
 }
 
-#main-controls select:hover {
-	background-color: #4b1a03;
-	color: #fff;
-	border-color: #ff9540;
+#filters-toggle {
+	flex: 0 0 auto;
+	width: auto;
+	white-space: nowrap;
+	font-weight: 700;
+	background-color: var(--button-bg);
 }
 
-/* Sur PC si page trop réduite :*/
-@media screen and (max-width: 75em) {
-	#main-controls {
-		top: 5px; 
-		right: 5px; 
-		flex-direction: column;
-		align-items: center; 
-		gap: 2px;  
-	}
-
-	#main-controls .control-group {
-		width: 100%; 
-		align-items: center;
-		text-align: center;
-	}
-
-	#main-controls select {
-		width: 80%;
-		text-align: center;
-	}
+#main-controls select:hover,
+#filters-toggle:hover,
+#filters-toggle[aria-expanded="true"] {
+	background-color: var(--select-hover-bg);
+	color: var(--select-color);
+	border-color: var(--accent);
 }
 
-/* Container de la nav / filter */
-.filter-group {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem;
-  font-family: 'Montserrat', sans-serif;
-  color: #f5f5f5;
+.filters-panel {
+	display: none;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid var(--controls-border);
 }
 
-.filter-group label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-size: 1rem;
-  user-select: none;
-  position: relative;
-  padding-left: 35px;
+.filters-panel.is-open {
+	display: grid;
 }
 
-.filter-group input[type="radio"] {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Faux bouton radio Halloween */
-.filter-group label::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  border: 2px solid #ff4500;
-  background: radial-gradient(circle, #ff8c00 0%, #ff4500 70%);
-  transition: all 0.3s ease;
-}
-
-.filter-group input[type="radio"]:checked + ::before,
-.filter-group input[type="radio"]:checked + *::before {
-  background: radial-gradient(circle, #fffacd 0%, #ffb347 70%);
-  box-shadow: 0 0 5px #ffd700, 0 0 10px #ffa500;
-}
-
-/*************************************
-Animation d'apparition des contrôles
-**************************************/
-
-/* Animation keyframes */
-@keyframes fadeInSlide {
-	from {
-		opacity: 0;
-		transform: translateY(-10px) scale(0.95);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-/* Animation keyframes */
-@keyframes fadeInSlide {
-	from {
-		opacity: 0;
-		transform: translateY(-10px) scale(0.95);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-/* Application de l'animation */
-#main-controls {
-	animation: fadeInSlide 0.8s ease-out forwards;
-	opacity: 0; /* masqué avant l'animation */
-}
-
-/* Animation keyframes */
-@keyframes fadeInSlide {
-	from {
-		opacity: 0;
-		transform: translateY(-10px) scale(0.95);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-/* Application de l'animation */
-#main-controls {
-	animation: fadeInSlide 0.8s ease-out forwards;
-	opacity: 0; /* masqué avant l'animation */
+.filters-panel[hidden] {
+	display: none !important;
 }
 
 /*************************************
@@ -511,18 +557,11 @@ Smarthone properties
 	#main-controls {
 		position: static;
 		margin: 10px auto 20px auto;
-		flex-direction: column;
-		align-items: center;
-		width: 20em;
-		gap: 8px; 
+		width: min(22em, calc(100% - 24px));
+		align-items: stretch;
 	}
+	.controls-bar,
 	#main-controls .control-group {
 		width: 100%;
-		align-items: center;
-		text-align: center;
-	}
-	#main-controls select {
-		width: 80%;
-		text-align: center;
 	}
 }

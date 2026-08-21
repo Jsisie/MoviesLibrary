@@ -27,6 +27,20 @@ function updateTitleFromCollection() {
 
     const title = document.querySelector('#titre_principal');
     title.innerHTML = `<b>${selectedText}</b>`;
+    applyCollectionTheme();
+}
+
+/**
+ * Applique le thème CSS de la collection (classe sur <body>)
+ */
+function applyCollectionTheme() {
+    document.body.classList.remove(
+        'theme-halloween',
+        'theme-watchlist',
+        'theme-louison_et_leo',
+        'theme-christmas'
+    );
+    document.body.classList.add(`theme-${currentCollection}`);
 }
 
 
@@ -54,12 +68,12 @@ function loadMovies() {
     console.info(movies);
 
     const genres = computeGenres(movies);
-    console.log(genres);
+    const platforms = computePlatforms(movies);
 
     updateGenreSelect(genres);
-    renderMovies(movies);
-
-    applyFilters(); // Applique le filtre par défaut (year asc)
+    updatePlatformSelect(platforms);
+    resetExtraFilters();
+    applyFilters();
 }
 
 /**
@@ -78,18 +92,56 @@ function computeGenres(movies) {
  * @param {*} genres 
  */
 function updateGenreSelect(genres) {
-    const select = document.querySelector('#genre-select');
+    fillSelectOptions('#genre-select', genres);
+}
 
-    // Supprime tout sauf "Tous"
+function computePlatforms(movies) {
+    return [...new Set(
+        movies.flatMap(movie => movie.platforms || [])
+    )].sort((a, b) => a.localeCompare(b, 'fr'));
+}
+
+function updatePlatformSelect(platforms) {
+    fillSelectOptions('#platform-select', platforms);
+}
+
+/**
+ * Remplit un <select> en gardant la 1re option ("Tous" / "Toutes")
+ */
+function fillSelectOptions(selector, values) {
+    const select = document.querySelector(selector);
     select.querySelectorAll('option:not([value="all"])')
           .forEach(o => o.remove());
 
-    genres.forEach(genre => {
+    values.forEach(value => {
         const option = document.createElement('option');
-        option.value = genre;
-        option.textContent = genre;
+        option.value = value;
+        option.textContent = value;
         select.appendChild(option);
     });
+}
+
+function resetExtraFilters() {
+    document.querySelector('#genre-select').value = 'all';
+    document.querySelector('#platform-select').value = 'all';
+    document.querySelector('#duration-select').value = 'all';
+}
+
+/**
+ * Convertit une durée "2h06" / "1h37" en minutes
+ */
+function durationToMinutes(duration) {
+    const match = String(duration).match(/(\d+)\s*h\s*(\d+)?/i);
+    if (!match) return 0;
+    return Number(match[1]) * 60 + Number(match[2] || 0);
+}
+
+function matchesDurationFilter(movie, bucket) {
+    const minutes = durationToMinutes(movie.duration);
+    if (bucket === 'short') return minutes < 90;
+    if (bucket === 'medium') return minutes >= 90 && minutes <= 120;
+    if (bucket === 'long') return minutes > 120;
+    return true;
 }
 
 /**
@@ -259,40 +311,92 @@ function normalizeTitle(title) {
  * Initialise les listeners sur les éléments interactifs
  */
 function setupEventListeners() {
-    // Changement de collection (filtre local, sans recharger le JSON)
     document.querySelector('#collection-select').addEventListener('change', (e) => {
         currentCollection = e.target.value;
         updateTitleFromCollection();
         loadMovies();
     });
 
-    // Tri
-    document.querySelectorAll('input[name="sort"]').forEach(radio => {
-        radio.addEventListener('change', applyFilters);
-    });
+    ['#genre-select', '#platform-select', '#duration-select', '#sort-select']
+        .forEach(selector => {
+            document.querySelector(selector).addEventListener('change', applyFilters);
+        });
 
-    // Filtrage par genre
-    document.querySelector('#genre-select').addEventListener('change', applyFilters);
+    setupFiltersToggle();
 }
 
 /**
- * Applique le filtre par genre et le tri
- * Puis relance le rendu des Cards
+ * Ouvre / ferme le panneau de filtres (même comportement ordi et téléphone)
+ */
+function setupFiltersToggle() {
+    const button = document.querySelector('#filters-toggle');
+    const panel = document.querySelector('#filters-panel');
+
+    button.addEventListener('click', () => {
+        const willOpen = panel.hasAttribute('hidden');
+        setFiltersPanelOpen(willOpen);
+    });
+
+    document.addEventListener('click', (e) => {
+        if (!document.querySelector('#main-controls').contains(e.target)) {
+            setFiltersPanelOpen(false);
+        }
+    });
+
+    setFiltersPanelOpen(false);
+}
+
+function setFiltersPanelOpen(open) {
+    const button = document.querySelector('#filters-toggle');
+    const panel = document.querySelector('#filters-panel');
+
+    panel.toggleAttribute('hidden', !open);
+    panel.classList.toggle('is-open', open);
+    button.setAttribute('aria-expanded', String(open));
+    updateFiltersToggleLabel();
+}
+
+function updateFiltersToggleLabel() {
+    const button = document.querySelector('#filters-toggle');
+    const open = button.getAttribute('aria-expanded') === 'true';
+    const activeCount = ['#genre-select', '#platform-select', '#duration-select']
+        .filter(selector => document.querySelector(selector).value !== 'all')
+        .length;
+    const arrow = open ? '▴' : '▾';
+    button.textContent = activeCount ? `Filtres (${activeCount}) ${arrow}` : `Filtres ${arrow}`;
+}
+
+/**
+ * Applique les filtres + le tri, puis relance le rendu des Cards
  */
 function applyFilters() {
     let filtered = [...movies];
 
-    // Filtre par genre
     const genre = document.querySelector('#genre-select').value;
+    const platform = document.querySelector('#platform-select').value;
+    const duration = document.querySelector('#duration-select').value;
+    const sort = document.querySelector('#sort-select').value;
+
     if (genre !== 'all') {
-        filtered = filtered.filter(m =>
-            m.genres.includes(genre) // m.genres.toLowerCase().includes(genre.toLowerCase())
-        );
+        filtered = filtered.filter(m => m.genres.includes(genre));
+    }
+    if (platform !== 'all') {
+        filtered = filtered.filter(m => (m.platforms || []).includes(platform));
+    }
+    if (duration !== 'all') {
+        filtered = filtered.filter(m => matchesDurationFilter(m, duration));
     }
 
-    // Tri
-    const sort = document.querySelector('input[name="sort"]:checked').value;
-    filtered.sort((a, b) => sort === 'yearAsc' ? a.year - b.year : b.year - a.year);
+    filtered.sort((a, b) => {
+        if (sort === 'yearAsc') return a.year - b.year;
+        if (sort === 'yearDesc') return b.year - a.year;
+        if (sort === 'titleAsc') return a.title.localeCompare(b.title, 'fr');
+        if (sort === 'titleDesc') return b.title.localeCompare(a.title, 'fr');
+        if (sort === 'durationAsc') return durationToMinutes(a.duration) - durationToMinutes(b.duration);
+        if (sort === 'durationDesc') return durationToMinutes(b.duration) - durationToMinutes(a.duration);
+        return 0;
+    });
 
     renderMovies(filtered);
+    updateFiltersToggleLabel();
 }
