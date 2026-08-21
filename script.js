@@ -14,6 +14,7 @@ let currentCollection; // Collection courante (halloween, watchlist, ...)
  * Charge les films et initialise les écouteurs d'événements
  */
 async function initApp() {
+    restorePreferences();
     currentCollection = document.querySelector('#collection-select').value; // Récupère la collection par défaut
     updateTitleFromCollection();
     await loadAllMovies();
@@ -165,6 +166,28 @@ function matchesEraFilter(movie, era) {
    on garde "vu" dans le fichier comme valeur par défaut,
    et on mémorise les cochages dans le navigateur.
    ========================== */
+
+const COLLECTION_STORAGE_KEY = 'moviesLibrary.collection';
+const SORT_STORAGE_KEY = 'moviesLibrary.sort';
+
+/**
+ * Réapplique la dernière collection et le dernier tri utilisés.
+ * Les filtres ne sont volontairement pas mémorisés.
+ */
+function restorePreferences() {
+    restoreSelectValue('#collection-select', COLLECTION_STORAGE_KEY);
+    restoreSelectValue('#sort-select', SORT_STORAGE_KEY);
+}
+
+function restoreSelectValue(selector, storageKey) {
+    const select = document.querySelector(selector);
+    const saved = localStorage.getItem(storageKey);
+    if (!saved) return;
+
+    // On ignore une valeur devenue obsolète (option supprimée / renommée)
+    const exists = Array.from(select.options).some(option => option.value === saved);
+    if (exists) select.value = saved;
+}
 
 const WATCHED_STORAGE_KEY = 'moviesLibrary.watched';
 
@@ -396,6 +419,7 @@ function normalizeTitle(title) {
 function setupEventListeners() {
     document.querySelector('#collection-select').addEventListener('change', (e) => {
         currentCollection = e.target.value;
+        localStorage.setItem(COLLECTION_STORAGE_KEY, currentCollection);
         updateTitleFromCollection();
         loadMovies();
     });
@@ -404,6 +428,10 @@ function setupEventListeners() {
         .forEach(selector => {
             document.querySelector(selector).addEventListener('change', applyFilters);
         });
+
+    document.querySelector('#sort-select').addEventListener('change', (e) => {
+        localStorage.setItem(SORT_STORAGE_KEY, e.target.value);
+    });
 
     setupFiltersToggle();
 
