@@ -1,8 +1,9 @@
 /* ==========================
    Variables globales
    ========================== */
-let movies = []; // Liste de films chargés sur la page
-let currentCollection; // Fichier JSON chargé en cours
+let allMovies = []; // Tous les films (chargé une seule fois)
+let movies = []; // Films de la collection affichée
+let currentCollection; // Collection courante (halloween, watchlist, ...)
 
 /* ==========================
    Fonction principale
@@ -15,7 +16,8 @@ let currentCollection; // Fichier JSON chargé en cours
 async function initApp() {
     currentCollection = document.querySelector('#collection-select').value; // Récupère la collection par défaut
     updateTitleFromCollection();
-    await loadMovies(currentCollection);
+    await loadAllMovies();
+    loadMovies();
     setupEventListeners();
 }
 
@@ -33,15 +35,24 @@ function updateTitleFromCollection() {
    ========================== */
 
 /**
- * Charge le fichier JSON correspondant à la collection courante
+ * Charge une seule fois le fichier JSON unique contenant tous les films
+ */
+async function loadAllMovies() {
+    const res = await fetch('json_tmp/movies.json');
+    allMovies = await res.json();
+    console.info(allMovies);
+}
+
+/**
+ * Filtre allMovies pour ne garder que les films de la collection courante
  * et stocke le résultat dans la variable globale "movies"
  */
-async function loadMovies() {
-    const res = await fetch(`json_tmp/${currentCollection}`);
-    
-    movies = await res.json();
+function loadMovies() {
+    movies = allMovies.filter(movie =>
+        movie.collections.includes(currentCollection)
+    );
     console.info(movies);
-    
+
     const genres = computeGenres(movies);
     console.log(genres);
 
@@ -248,9 +259,10 @@ function normalizeTitle(title) {
  * Initialise les listeners sur les éléments interactifs
  */
 function setupEventListeners() {
-    // Changement de collection
+    // Changement de collection (filtre local, sans recharger le JSON)
     document.querySelector('#collection-select').addEventListener('change', (e) => {
         currentCollection = e.target.value;
+        updateTitleFromCollection();
         loadMovies();
     });
 
@@ -261,15 +273,6 @@ function setupEventListeners() {
 
     // Filtrage par genre
     document.querySelector('#genre-select').addEventListener('change', applyFilters);
-
-    // Modification du titre
-    document.querySelector('#collection-select')
-    .addEventListener('change', (e) => {
-        currentCollection = e.target.value;
-        updateTitleFromCollection();
-        loadMovies();
-    });
-
 }
 
 /**
