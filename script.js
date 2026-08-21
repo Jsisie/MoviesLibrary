@@ -140,6 +140,20 @@ function createCard(movie, index) {
     header.appendChild(spanDuration);
     header.appendChild(spanGenres);
 
+    // Plateformes de streaming (sous les genres, verso de la Card)
+    const platforms = movie.platforms || [];
+    if (platforms.length > 0) {
+        const platformsDiv = document.createElement("div");
+        platformsDiv.classList.add("platforms");
+        platforms.forEach(name => {
+            const badge = document.createElement("span");
+            badge.classList.add("platform", platformClassName(name));
+            badge.textContent = name;
+            platformsDiv.appendChild(badge);
+        });
+        header.appendChild(platformsDiv);
+    }
+
     // Synopsis
     const synopsis = document.createElement("p");
     synopsis.textContent = movie.synopsis;
@@ -180,6 +194,36 @@ function addPictures(movieTitle, index) {
     posterElem.style.backgroundImage = `url(${posterImage})`;
     backElem.style.backgroundImage = `url(${backImage})`;
 }
+
+/**
+ * Transforme le nom d'une plateforme en classe CSS normalisée
+ * (ex. "Disney+" → "platform-disneyplus", "Prime Video" → "platform-prime")
+ * @param {string} name Nom affiché de la plateforme
+ * @returns {string} Classe CSS associée
+ */
+function platformClassName(name) {
+    let slug = name
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/\+/g, "plus")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+
+    // 1. Simplification pour Prime Video
+    if (slug === "prime-video") {
+        slug = "prime";
+    }
+
+    // 2. Regroupement des plateformes sous Canal+
+    const canalGroup = ["apple-tv", "apple", "hbo-max", "max", "ocs", "paramountplus", "paramount", "insomnia"];
+    if (canalGroup.includes(slug)) {
+        slug = "canalplus";
+    }
+
+    return `platform-${slug}`;
+}
+
 
 /**
  * Normalise un titre pour créer des noms de fichiers cohérents

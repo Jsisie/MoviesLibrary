@@ -359,6 +359,62 @@ Movie information
 	font-size: 1.4em;
 }
 
+/*************************************
+Plateformes de streaming (verso Card)
+**************************************/
+
+/* Positionne la liste tout en bas de la carte */
+.info header .platforms {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 12px;           /* Espace augmenté entre les noms pour la lisibilité */
+	position: absolute;  /* Permet de détacher le bloc du flux du titre */
+	bottom: 10px;        /* Colle le bloc presque au bord inférieur de la carte */
+	left: 10px;          /* Colle le bloc presque au bord gauche de la carte */
+	margin-top: 0;
+}
+
+/* Style épuré, gros et gras pour chaque plateforme */
+.info header .platform {
+	display: inline-block;
+	font-size: 1.1em;    /* Augmente la taille du texte */
+	font-weight: 800;    /* Rend le texte bien gras */
+	letter-spacing: 0.05em;
+	
+	background: none;    /* Supprime le fond */
+	padding: 0;          /* Supprime les marges internes devenues inutiles */
+	border-radius: 0;    /* Supprime les arrondis obsolètes */
+	line-height: 1;
+
+	color:#FFFFFF;
+	text-shadow: 
+		0 0 2px rgba(255, 255, 255, 0.4), 
+		0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+
+/* Couleurs officielles par plateforme */
+.info header .platform.platform-netflix      { color: #E50914; } /* Rouge Netflix */
+.info header .platform.platform-disneyplus   { color: #00E5FF; } /* Bleu turquoise Disney+ (ajusté pour la lisibilité) */
+.info header .platform.platform-prime        { color: #00A8E1; } /* Bleu ciel Amazon Prime */
+.info header .platform.platform-max          { color: #002BE7; } /* Bleu Max (HBO) */
+.info header .platform.platform-arte         { color: #FA481E; } /* Orange/Rouge Arte */
+.info header .platform.platform-molotov      { color: #FF5A00; } /* Orange Molotov */
+.info header .platform.platform-france-tv    { color: #02D7A5; } /* Vert/Bleu fluo moderne France.tv */
+.info header .platform.platform-crunchyroll  { color: #F47521; } /* Orange Crunchyroll */
+.info header .platform.platform-adn          { color: #0096FF; } /* Bleu ADN */
+
+/* Plateformes avec texte noir (nécessitent un fond clair ou contrasté) */
+.info header .platform.platform-canalplus { 
+	color: #000000;
+	text-shadow: 
+		0 0 4px rgba(255, 255, 255, 0.7), 
+		0 0 8px rgba(255, 255, 255, 0.5);
+}
+.info header .platform.platform-mubi { 
+	color: #FFFFFF; 
+}
+
 .info header .rating {
 	border: 1px solid #FFF;
 	padding: 0px 3px;
