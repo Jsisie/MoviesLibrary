@@ -32,9 +32,14 @@
 						</select>
 					</div>
 
-					<button type="button" id="filters-toggle" aria-expanded="false" aria-controls="filters-panel">
-						Filtres
-					</button>
+					<div class="controls-actions">
+						<button type="button" id="filters-reset" title="Réinitialiser les filtres" aria-label="Réinitialiser les filtres" hidden>
+							×
+						</button>
+						<button type="button" id="filters-toggle" aria-expanded="false" aria-controls="filters-panel">
+							Filtres
+						</button>
+					</div>
 				</div>
 
 				<div id="filters-panel" class="filters-panel" hidden>
@@ -59,6 +64,25 @@
 							<option value="short">&lt; 1h30</option>
 							<option value="medium">1h30 – 2h</option>
 							<option value="long">&gt; 2h</option>
+						</select>
+					</div>
+
+					<div class="control-group" id="era-control">
+						<label for="era-select">Époque</label>
+						<select id="era-select" title="Filtrer par époque">
+							<option value="all" selected>Toutes</option>
+							<option value="recent">≥ 2000</option>
+							<option value="mid">1950 – 1999</option>
+							<option value="classic">&lt; 1950</option>
+						</select>
+					</div>
+
+					<div class="control-group" id="watched-control">
+						<label for="watched-select">Visionnage</label>
+						<select id="watched-select" title="Filtrer par films vus">
+							<option value="all" selected>Les deux</option>
+							<option value="seen">Vu</option>
+							<option value="unseen">Non vu</option>
 						</select>
 					</div>
 

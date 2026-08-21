@@ -214,6 +214,13 @@ Filters / Selectors / Menu
 	gap: 10px;
 }
 
+.controls-actions {
+	display: flex;
+	align-items: stretch;
+	gap: 6px;
+	flex: 0 0 auto;
+}
+
 #main-controls .control-group {
 	display: flex;
 	flex-direction: column;
@@ -232,7 +239,8 @@ Filters / Selectors / Menu
 }
 
 #main-controls select,
-#filters-toggle {
+#filters-toggle,
+#filters-reset {
 	background-color: var(--select-bg);
 	color: var(--select-color);
 	border: 1px solid var(--select-border);
@@ -253,9 +261,38 @@ Filters / Selectors / Menu
 	background-color: var(--button-bg);
 }
 
+#filters-reset {
+	display: none;
+	flex: 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	width: 2.15em;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 1.25em;
+	font-weight: 700;
+	line-height: 1;
+	background-color: var(--button-bg);
+	opacity: 0.4;
+}
+
+#main-controls.filters-open #filters-reset {
+	display: inline-flex;
+}
+
+#filters-reset.is-active {
+	opacity: 1;
+	border-color: var(--accent);
+}
+
+#filters-reset:not(.is-active) {
+	cursor: default;
+}
+
 #main-controls select:hover,
 #filters-toggle:hover,
-#filters-toggle[aria-expanded="true"] {
+#filters-toggle[aria-expanded="true"],
+#filters-reset.is-active:hover {
 	background-color: var(--select-hover-bg);
 	color: var(--select-color);
 	border-color: var(--accent);
@@ -488,8 +525,8 @@ Plateformes de streaming (verso Card)
 
 .trailer-link {
     position: absolute;
-    bottom: 10px;       /* Espace depuis le bas */
-    left: 15px;         /* Espace depuis la gauche */
+    bottom: 10px;
+    left: 15px;
     text-decoration: none;
     color: #210303;
     font-weight: bold;
@@ -499,6 +536,35 @@ Plateformes de streaming (verso Card)
 .trailer-link:hover {
     text-decoration: underline;
     color: #9f1506;
+}
+
+.watched-toggle {
+    position: absolute;
+    right: 12px;
+    bottom: 8px;
+    z-index: 2;
+    min-width: 2.6em;
+    padding: 5px 10px;
+    border-radius: 999px;
+    border: 1.5px solid #210303;
+    background: rgba(255, 255, 255, 0.45);
+    color: #210303;
+    font-family: inherit;
+    font-size: 0.8em;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    backdrop-filter: blur(2px);
+}
+
+.watched-toggle:hover {
+    background: rgba(255, 255, 255, 0.75);
+}
+
+.watched-toggle.is-watched {
+    background: #210303;
+    color: #fff8ee;
+    border-color: #210303;
 }
 
 /*************************************

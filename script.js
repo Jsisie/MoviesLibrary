@@ -54,6 +54,7 @@ function applyCollectionTheme() {
 async function loadAllMovies() {
     const res = await fetch('json_tmp/movies.json');
     allMovies = await res.json();
+    applyWatchedState(allMovies);
     console.info(allMovies);
 }
 
@@ -125,6 +126,13 @@ function resetExtraFilters() {
     document.querySelector('#genre-select').value = 'all';
     document.querySelector('#platform-select').value = 'all';
     document.querySelector('#duration-select').value = 'all';
+    document.querySelector('#era-select').value = 'all';
+    document.querySelector('#watched-select').value = 'all';
+}
+
+function clearAllFilters() {
+    resetExtraFilters();
+    applyFilters();
 }
 
 /**
@@ -142,6 +150,80 @@ function matchesDurationFilter(movie, bucket) {
     if (bucket === 'medium') return minutes >= 90 && minutes <= 120;
     if (bucket === 'long') return minutes > 120;
     return true;
+}
+
+function matchesEraFilter(movie, era) {
+    if (era === 'recent') return movie.year >= 2000;
+    if (era === 'mid') return movie.year >= 1950 && movie.year < 2000;
+    if (era === 'classic') return movie.year < 1950;
+    return true;
+}
+
+/* ==========================
+   Films vus (JSON + localStorage)
+   Le navigateur ne peut pas écrire le JSON :
+   on garde "vu" dans le fichier comme valeur par défaut,
+   et on mémorise les cochages dans le navigateur.
+   ========================== */
+
+const WATCHED_STORAGE_KEY = 'moviesLibrary.watched';
+
+function movieId(movie) {
+    return `${movie.title}|${movie.year}`;
+}
+
+function loadWatchedOverrides() {
+    try {
+        return JSON.parse(localStorage.getItem(WATCHED_STORAGE_KEY) || '{}');
+    } catch (e) {
+        return {};
+    }
+}
+
+function applyWatchedState(list) {
+    const overrides = loadWatchedOverrides();
+    list.forEach(movie => {
+        const id = movieId(movie);
+        movie.vu = Object.prototype.hasOwnProperty.call(overrides, id)
+            ? Boolean(overrides[id])
+            : Boolean(movie.vu);
+    });
+}
+
+function setMovieWatched(movie, vu) {
+    movie.vu = vu;
+    const overrides = loadWatchedOverrides();
+    overrides[movieId(movie)] = vu;
+    localStorage.setItem(WATCHED_STORAGE_KEY, JSON.stringify(overrides));
+}
+
+function createWatchedButton(movie) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.classList.add('watched-toggle');
+    updateWatchedButton(button, movie.vu);
+
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        setMovieWatched(movie, !movie.vu);
+
+        const watchedFilter = document.querySelector('#watched-select').value;
+        if (watchedFilter === 'all') {
+            updateWatchedButton(button, movie.vu);
+        } else {
+            applyFilters();
+        }
+    });
+
+    return button;
+}
+
+function updateWatchedButton(button, vu) {
+    button.classList.toggle('is-watched', vu);
+    button.setAttribute('aria-pressed', String(vu));
+    button.textContent = vu ? 'Vu ✓' : 'Vu';
+    button.title = vu ? 'Marquer comme non vu' : 'Marquer comme vu';
 }
 
 /**
@@ -231,6 +313,7 @@ function createCard(movie, index) {
     infoDiv.appendChild(header);
     infoDiv.appendChild(synopsis);
     infoDiv.appendChild(trailer);
+    infoDiv.appendChild(createWatchedButton(movie));
 
     movieDiv.appendChild(posterDiv);
     movieDiv.appendChild(infoDiv);
@@ -317,12 +400,17 @@ function setupEventListeners() {
         loadMovies();
     });
 
-    ['#genre-select', '#platform-select', '#duration-select', '#sort-select']
+    ['#genre-select', '#platform-select', '#duration-select', '#era-select', '#watched-select', '#sort-select']
         .forEach(selector => {
             document.querySelector(selector).addEventListener('change', applyFilters);
         });
 
     setupFiltersToggle();
+
+    document.querySelector('#filters-reset').addEventListener('click', (e) => {
+        e.stopPropagation();
+        clearAllFilters();
+    });
 }
 
 /**
@@ -349,21 +437,34 @@ function setupFiltersToggle() {
 function setFiltersPanelOpen(open) {
     const button = document.querySelector('#filters-toggle');
     const panel = document.querySelector('#filters-panel');
+    const controls = document.querySelector('#main-controls');
 
     panel.toggleAttribute('hidden', !open);
     panel.classList.toggle('is-open', open);
+    controls.classList.toggle('filters-open', open);
     button.setAttribute('aria-expanded', String(open));
     updateFiltersToggleLabel();
 }
 
+function getActiveFilterCount() {
+    return ['#genre-select', '#platform-select', '#duration-select', '#era-select', '#watched-select']
+        .filter(selector => {
+            const select = document.querySelector(selector);
+            return select && select.value !== 'all';
+        }).length;
+}
+
 function updateFiltersToggleLabel() {
     const button = document.querySelector('#filters-toggle');
+    const resetButton = document.querySelector('#filters-reset');
     const open = button.getAttribute('aria-expanded') === 'true';
-    const activeCount = ['#genre-select', '#platform-select', '#duration-select']
-        .filter(selector => document.querySelector(selector).value !== 'all')
-        .length;
+    const activeCount = getActiveFilterCount();
     const arrow = open ? '▴' : '▾';
+
     button.textContent = activeCount ? `Filtres (${activeCount}) ${arrow}` : `Filtres ${arrow}`;
+    resetButton.hidden = !open;
+    resetButton.classList.toggle('is-active', activeCount > 0);
+    resetButton.toggleAttribute('disabled', activeCount === 0);
 }
 
 /**
@@ -375,6 +476,8 @@ function applyFilters() {
     const genre = document.querySelector('#genre-select').value;
     const platform = document.querySelector('#platform-select').value;
     const duration = document.querySelector('#duration-select').value;
+    const era = document.querySelector('#era-select').value;
+    const watched = document.querySelector('#watched-select').value;
     const sort = document.querySelector('#sort-select').value;
 
     if (genre !== 'all') {
@@ -385,6 +488,14 @@ function applyFilters() {
     }
     if (duration !== 'all') {
         filtered = filtered.filter(m => matchesDurationFilter(m, duration));
+    }
+    if (era !== 'all') {
+        filtered = filtered.filter(m => matchesEraFilter(m, era));
+    }
+    if (watched === 'seen') {
+        filtered = filtered.filter(m => m.vu);
+    } else if (watched === 'unseen') {
+        filtered = filtered.filter(m => !m.vu);
     }
 
     filtered.sort((a, b) => {
