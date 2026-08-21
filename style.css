@@ -486,6 +486,14 @@ Plateformes de streaming (verso Card)
 .info header .platform.platform-france-tv    { color: #02D7A5; } /* Vert/Bleu fluo moderne France.tv */
 .info header .platform.platform-crunchyroll  { color: #F47521; } /* Orange Crunchyroll */
 .info header .platform.platform-adn          { color: #0096FF; } /* Bleu ADN */
+.info header .platform.platform-sfr-play     { color: #E2001A; } /* Rouge SFR */
+.info header .platform.platform-sooner       { color: #B29CFF; } /* Violet clair Sooner */
+.info header .platform.platform-plex         { color: #EBAF00; } /* Jaune Plex */
+.info header .platform.platform-artiflix     { color: #E8A33D; } /* Ocre Artiflix */
+.info header .platform.platform-artify       { color: #46B29D; } /* Vert d'eau Artify */
+.info header .platform.platform-filmboxplus  { color: #00A0DF; } /* Bleu FilmBox+ */
+.info header .platform.platform-ina-madelen  { color: #D6336C; } /* Rose INA madelen */
+.info header .platform.platform-rakuten-tv   { color: #F5325B; } /* Rose/rouge Rakuten TV */
 
 /* Plateformes avec texte noir (nécessitent un fond clair ou contrasté) */
 .info header .platform.platform-canalplus { 
@@ -497,6 +505,18 @@ Plateformes de streaming (verso Card)
 .info header .platform.platform-mubi { 
 	color: #FFFFFF; 
 }
+
+/* Couleurs sombres : halo blanc pour rester lisibles sur l'image de la Card */
+.info header .platform.platform-shadowz,
+.info header .platform.platform-bloodstream,
+.info header .platform.platform-dvd {
+	text-shadow:
+		0 0 4px rgba(255, 255, 255, 0.75),
+		0 0 8px rgba(255, 255, 255, 0.5);
+}
+.info header .platform.platform-shadowz      { color: #6B0000; } /* Rouge très sombre Shadowz */
+.info header .platform.platform-bloodstream  { color: #A81020; } /* Rouge sang Bloodstream */
+.info header .platform.platform-dvd          { color: #14532D; } /* Vert foncé : support physique, pas une plateforme */
 
 .info header .rating {
 	border: 1px solid #FFF;
