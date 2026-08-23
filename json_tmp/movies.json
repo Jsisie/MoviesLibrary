@@ -1737,15 +1737,165 @@
     "collections": ["louison_et_leo"],
     "vu": false
   },
+
+
+
+
+
+
+
   {
-    "title": "AAAAAAAAAAAA",
-    "year": 9999,
-    "duration": "1h48",
-    "genres": ["AAAAAA", "AAAAAAAA"],
-    "trailer": "AAAAAAAAAAAA",
-    "platforms": ["AAAAAA"],
-    "synopsis": "AAAAAAAAAA",
-    "collections": [""],
+    "title": "Heat",
+    "year": 1995,
+    "duration": "2h50",
+    "genres": ["Gangster", "Policier", "Thriller", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=h7N1gsQY4Io",
+    "platforms": ["DVD", "Disney+", "Max"],
+    "synopsis": "Neil McCauley, cambrioleur de génie, et son équipe de gangster, attaquent un fourgon blindé en plein Los Angeles. L'assaut tourne au bain de sang, lorsque les trois gardes du fourgon sont tués à bout portant. L'enquête est confiée à l'inspecteur Vincent Hanna. Lieutenant de police rusé et obsédé par son métier, Hanna se lance sur les traces du gang, une chasse à l'homme commence...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "American Gangster",
+    "year": 2007,
+    "duration": "2h37",
+    "genres": ["Biopic", "Gangster", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=fCDNUtffma4",
+    "platforms": ["DVD", "Netflix", "Prime"],
+    "synopsis": "Lorsque le parrain de Harlem décède, Frank Lucas, son garde du corps, se lance discrètement dans le trafic de drogue. Important directement du Viêtnam l'héroïne dont le marché new-yorkais a besoin, il fait très vite fortune. Mais l'inspecteur Roberts découvre le vaste trafic qu'il a mis en place...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "La Cité de Dieu",
+    "year": 2002,
+    "duration": "2h10",
+    "genres": ["Drame", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=RrJ2OTMiFDg",
+    "platforms": ["Prime", "Max"],
+    "synopsis": "Dans une favela qui a vu le jour à Rio de Janeiro dans les années soixante, Fusée est un gamin noir, pauvre, trop fragile pour devenir hors-la-loi, mais assez malin pour ne pas se contenter d'un travail sous payé. Il grandit dans un environnement violent, mais tente de voir la réalité autrement, avec l’œil d'un artiste. Il rêve de devenir photographe professionnel...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Arnaques, crimes & botanique",
+    "year": 1998,
+    "duration": "1h47",
+    "genres": ["Comédie", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=SM8hSPAP_D0",
+    "platforms": [],
+    "synopsis": "Eddy, joueur invétéré, s'apprête à participer à la plus grosse partie de cartes de sa vie avec un enjeu de cent mille livres, somme qu'il a durement amassée avec ses trois acolytes, Tom, Baco et Soap. Eddy est considéré comme l'un des meilleurs joueurs du circuit, mais la partie s'avère être un coup monté à l'issue duquel il doit cinq cent mille livres à son adversaire Hatchet Harry. Ce dernier lui donne une semaine pour réunir cette somme, sinon il aura les doigts coupés.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Scarface",
+    "year": 1932,
+    "duration": "1h33",
+    "genres": ["Policier", "Gangster", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=XmmF03YGZ3A",
+    "platforms": [],
+    "synopsis": "Chicago, au temps de la prohibition. Un malfrat, l'ambitieux Tony Camonte, tue son patron et devient le garde du corps de Lovo, chef du gang rival.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "L'enfer est à lui",
+    "year": 1949,
+    "duration": "1h54",
+    "genres": ["Gangster", "Film Noir", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=H_uTeAwKl1k",
+    "platforms": [],
+    "synopsis": "Le gangster Cody Jarrett et ses complices attaquent un train en Californie. Pendant l'opération, quatre employés sont tués. La police est déterminée à retrouver les coupables et surveille la mère de Cody, à laquelle ce dernier voue une adoration pathologique.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Un prophète",
+    "year": 2009,
+    "duration": "2h35",
+    "genres": ["Drame", "Policier", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=60gP-8DWH6Q",
+    "platforms": ["Canal+"],
+    "synopsis": "Condamné à six ans de prison, Malik El Djebena ne sait ni lire, ni écrire. À son arrivée en Centrale, il paraît plus fragile que les autres détenus.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Des hommes sans loi",
+    "year": 2012,
+    "duration": "1h55",
+    "genres": ["Drame", "Policier", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=ksQ7OPSElDA",
+    "platforms": [],
+    "synopsis": "En 1931, la Virginie subit de plein fouet la Prohibition. Nés dans cet État célèbre pour sa production de whisky, Jack, Howard et Forrest décident de s'enrichir grâce au trafic d'alcool. Ces trois frères font rapidement parler d'eux. Pour les neutraliser, le FBI envoie Charlies Rakes, un agent sans pitié...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Les Promesses de l'ombre",
+    "year": 2007,
+    "duration": "1h40",
+    "genres": ["Policier", "Thriller", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=kICgBBMalyg",
+    "platforms": [],
+    "synopsis": "À Londres, Anna, une sage-femme, tente de retracer la famille d'une jeune fille décédée en couches afin de trouver un foyer au nouveau-né. Des indices provenant du journal intime de la défunte la conduisent vers le milieu de la mafia russe où règnent la prostitution et la violence.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Le Cercle Rouge",
+    "year": 1970,
+    "duration": "2h20",
+    "genres": ["Policier", "Thriller", "Drame", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=h749Aeg3wtM",
+    "platforms": ["Mubi", "Sooner"],
+    "synopsis": "Un gangster nommé Vogel échappe aux mains du commissaire Mattei en sautant du train qui le ramenait à Paris. Il se cache dans le coffre d'une voiture. Il se trouve que le véhicule appartient à Corey, tout juste sorti de prison. Les deux hommes sympathisent et ne tardent pas à devenir des complices. Ils prévoient le cambriolage d'une bijouterie de la place Vendôme. Mais il leur faut recruter un tireur d'élite.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Les Sentiers de la perdition",
+    "year": 2002,
+    "duration": "1h57",
+    "genres": ["Policier", "Drame", "Thriller", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=OreveBlLfho",
+    "platforms": [],
+    "synopsis": "En 1930, deux pères : Michael Sullivan, un tueur professionnel au service de la mafia irlandaise dans le Chicago de la Dépression, et John Rooney, son patron et mentor, qui l'a élevé comme son fils. Deux fils : Michael Sullivan Jr. et Connor Rooney, qui font chacun des efforts désespérés pour s'attirer l'estime et l'amour de leurs géniteurs.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Miller's Crossing",
+    "year": 1990,
+    "duration": "1h50",
+    "genres": ["Comédie", "Drame", "Gangster", "Film Noir"],
+    "trailer": "https://www.youtube.com/watch?v=hkJIcFMN_pc",
+    "platforms": ["Sooner"],
+    "synopsis": "A l'époque de la prohibition, deux caïds veulent régner sur la ville, Leo O'Bannion, le tout-puissant gangster irlandais, et le naïf mais ambitieux Johnny Caspar, un truand d'origine italienne. Mais Tom Reagan, le bras droit et confident de Leo, tente de tirer son épingle du jeu, en manipulant son entourage pour arriver à ses fins.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Sonatine - Mélodie mortelle",
+    "year": 1993,
+    "duration": "1h34",
+    "genres": ["Gangster", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=gsx6RykyX7o",
+    "platforms": [],
+    "synopsis": "Murakawa, le bras droit du chef yakuza Kitakima est appelé d'urgence afin de venir en aide au clan Anan en guerre contre un clan rival.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Le Clan des Siciliens",
+    "year": 1969,
+    "duration": "2h02",
+    "genres": ["Policier", "Drame", "Gangster"],
+    "trailer": "https://www.youtube.com/watch?v=dpLAt9ILJmE",
+    "platforms": [],
+    "synopsis": "Roger Sartet, un truand ambitieux, s'évade avec l'aide des Manalese, une famille mafieuse. Traqué par le Commissaire Le Goff, Sartet va néanmoins proposer un gros coup aux Manalese : voler une collection de bijoux...",
+    "collections": ["watchlist"],
     "vu": false
   }
 ]
