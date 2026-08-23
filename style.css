@@ -487,13 +487,14 @@ Plateformes de streaming (verso Card)
 .info header .platform.platform-crunchyroll  { color: #F47521; } /* Orange Crunchyroll */
 .info header .platform.platform-adn          { color: #0096FF; } /* Bleu ADN */
 .info header .platform.platform-sfr-play     { color: #E2001A; } /* Rouge SFR */
-.info header .platform.platform-sooner       { color: #B29CFF; } /* Violet clair Sooner */
+.info header .platform.platform-sooner       { color: #8063e7; } /* Violet clair Sooner */
 .info header .platform.platform-plex         { color: #EBAF00; } /* Jaune Plex */
 .info header .platform.platform-artiflix     { color: #E8A33D; } /* Ocre Artiflix */
 .info header .platform.platform-artify       { color: #46B29D; } /* Vert d'eau Artify */
 .info header .platform.platform-filmboxplus  { color: #00A0DF; } /* Bleu FilmBox+ */
 .info header .platform.platform-ina-madelen  { color: #D6336C; } /* Rose INA madelen */
 .info header .platform.platform-rakuten-tv   { color: #F5325B; } /* Rose/rouge Rakuten TV */
+.info header .platform.platform-tf1plus      { color: #0120ac; } /* Bleu foncé (TF1+) */
 
 /* Plateformes avec texte noir (nécessitent un fond clair ou contrasté) */
 .info header .platform.platform-canalplus { 
