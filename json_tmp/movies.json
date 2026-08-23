@@ -366,7 +366,7 @@
     "title": "L.A. Confidential",
     "year": 1997,
     "duration": "2h13",
-    "genres": ["Thriller", "Drame", "Policier"],
+    "genres": ["Thriller", "Drame", "Gangster", "Policier"],
     "trailer": "https://www.youtube.com/watch?v=6sOXrY5yV4g",
     "platforms": ["Max"],
     "synopsis": "Los Angeles, années 50. Alors que la ville est sujette à une vague de règlements de comptes après la chute du caïd Mickey Cohen, la police criminelle se mobilise toute entière sur l'affaire de L'Oiseau de nuit, un massacre au cours duquel est tombé un ancien flic. Trois inspecteurs au style radicalement différent vont être amenés à coopérer pour démêler les fils d'une histoire plus compliquée qu'il n'y paraît...",
@@ -1543,7 +1543,7 @@
     "title": "Snowpiercer",
     "year": 2013,
     "duration": "2h06",
-    "genres": ["SF", "Action"],
+    "genres": ["SF", "Action", "Fantastique"],
     "trailer": "https://www.youtube.com/watch?v=dTYz-jXdhJs",
     "platforms": ["Paramount+"],
     "synopsis": "2031. Une nouvelle ère glaciaire. Les derniers survivants ont pris place à bord du Snowpiercer, un train gigantesque condamné à tourner autour de la Terre sans jamais s’arrêter. Dans ce microcosme futuriste de métal fendant la glace, s’est recréée une hiérarchie des classes contre laquelle une poignée d’hommes entraînés par l’un d’eux tente de lutter. Car l’être humain ne changera jamais…",
@@ -1573,6 +1573,171 @@
     "vu": false
   },
   {
+    "title": "Top Gun",
+    "year": 1986,
+    "duration": "1h50",
+    "genres": ["Action", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=xa_z57UatDY",
+    "platforms": ["Paramount+"],
+    "synopsis": "Hanté par la disparition de son père, tombé au Vietnam, Pete Mitchell, surnommé Maverick, s'est forgé au fil des années une solide réputation de pilote hors pair. Ses qualités lui permettent de décrocher, avec son ami et copilote Nick Bradshaw, un stage à la Fighter Weapon School en Californie, aussi connu sous le nom de 'Top Gun'.",
+    "collections": ["watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Forrest Gump",
+    "year": 1994,
+    "duration": "2h22",
+    "genres": ["Drame", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=vhbOdIJyalo",
+    "platforms": ["Paramount+"],
+    "synopsis": "À Savannah, dans l'Etat de Géorgie, Forrest Gump, assis sur un banc public, livre à qui veut l'entendre, l'étrange récit de sa vie mouvementée. Il naît dans un bourg de l'Alabama, affecté d'un quotient intellectuel inférieur à la moyenne et d'une paralysie partielle des jambes. Souvent raillé à l'école, le jeune Forrest se lie d'amitié avec la belle Jenny. Ensemble, ils vont grandir dans l'Amérique des années 1960.",
+    "collections": ["watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "E.T. l'Extra-Terrestre",
+    "year": 1982,
+    "duration": "1h55",
+    "genres": ["Aventure", "SF", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=Jva4IWuDYLM",
+    "platforms": ["Max"],
+    "synopsis": "Dans une forêt, des extraterrestres observent la flore terrienne. Une des créatures s'éloigne de la navette, qui redécolle sans elle lorsque des militaires et des scientifiques se lancent à ses trousses. L'extraterrestre est bientôt recueilli par Eliott, un jeune garçon rêveur et solitaire qui souffre du divorce de ses parents. Il va alors tout faire pour aider son nouvel ami à repartir vivre sur sa lointaine planète.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "duration": "2h34",
+    "genres": ["Gangster", "Policier", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=URRFb5sE-I4",
+    "platforms": ["DVD"],
+    "synopsis": "L'odyssée sanglante et burlesque de petits malfrats dans la jungle de Hollywood à travers trois histoires qui s'entremêlent. Dans un restaurant, un couple de jeunes braqueurs, Pumpkin et Yolanda, discutent des risques que comporte leur activité. Deux truands, Jules Winnfield et son ami Vincent Vega, qui revient d'Amsterdam, ont pour mission de récupérer une mallette au contenu mystérieux et de la rapporter à Marsellus Wallace.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Thelma et Louise",
+    "year": 1991,
+    "duration": "2h09",
+    "genres": ["Drame", "Aventure", "Road Trip"],
+    "trailer": "https://www.youtube.com/watch?v=ocJoqOA65X0",
+    "platforms": ["Sooner", "Mubi"],
+    "synopsis": "Louise, une serveuse délaissée par son petit ami musicien, et Thelma, une ménagère frustrée, décident de passer un week-end entre filles sur les routes de l'Arkansas. Lassées par cette existence monotone, elles quittent leur petite ville au volant d'une décapotable pour l'Utah. Lors de leur première halte dans un dancing, Un événement tragique va changer définitivement le cours de leurs vies.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Le Parrain",
+    "year": 1972,
+    "duration": "2h55",
+    "genres": ["Gangster", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=UaVTIH8mujA",
+    "platforms": ["DVD", "Prime", "Paramount+"],
+    "synopsis": "New York, 1945. Don Vito Corleone règne sur l'une des familles les plus puissantes de la mafia italo-américaine. Virgil Sollozzo, qui dirige la famille Tattaglia, lui propose de s'associer sur un nouveau marché prometteur : le trafic de drogue, mais celui-ci refuse. Don Vito est alors pris pour cible lors d'une tentative d'assassinat en pleine rue. Criblé de balles, il survit par miracle. Son fils Michael, qui s'était toujours tenu à l'écart des affaires familiales, se porte volontaire pour le venger.",
+    "collections": ["watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Le Parrain 2",
+    "year": 1974,
+    "duration": "3h20",
+    "genres": ["Gangster", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=OA1ij0alE0w",
+    "platforms": ["DVD", "Prime", "Paramount+"],
+    "synopsis": "En 1901, en Sicile, le tout jeune Vito Andolini voit son père, son frère et sa mère assassinés par un parrain local. Il s'enfuit vers les États-Unis, où les services de l'immigration le rebaptisent Vito Corleone... Cinquante ans plus tard, aux États-Unis, son fils Michael dirige d'une main de fer l'empire criminel de son père et cherche à étendre les activités criminelles de la famille à Las Vegas et à Cuba.",
+    "collections": ["watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Le Parrain 3",
+    "year": 1991,
+    "duration": "2h42",
+    "genres": ["Gangster", "Policier", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=UUkG37KSWf0",
+    "platforms": ["DVD", "Paramount+"],
+    "synopsis": "A New York, à la fin des années 70. Michael Corleone est parvenu à reconvertir les nombreuses affaires de la famille dans des secteurs parfaitement légaux. Il a multiplié les dons à l'Eglise et s'est attiré les bonnes grâces de l'archevêque Gilday, directeur de la banque du Vatican. Gilday, au bord de la faillite, lui demande alors une forte avance. Michael accepte, en échange du contrôle d'une société immobilière dont le Vatican possède une part importante.",
+    "collections": ["watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Citizen Kane",
+    "year": 1941,
+    "duration": "1h59",
+    "genres": ["Drame"],
+    "trailer": "https://www.youtube.com/watch?v=YMUibLJXHgs",
+    "platforms": ["DVD", "Sooner"],
+    "synopsis": "À la mort du milliardaire Charles Foster Kane, un grand magnat de la presse, Thompson, un reporter, enquête sur sa vie. Les contacts qu'il prend avec ses proches lui font découvrir un personnage gigantesque, mégalomane, égoïste et solitaire.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "12 Hommes en colère",
+    "year": 1957,
+    "duration": "1h36",
+    "genres": ["Policier", "Drame", "Noir et Blanc", "Huit-Clos"],
+    "trailer": "https://www.youtube.com/watch?v=TEN-2uTi2c0",
+    "platforms": ["DVD", "France-TV"],
+    "synopsis": "Un jeune homme d’origine modeste est accusé du meurtre de son père et risque la peine de mort. Le jury composé de douze hommes se retire pour délibérer et procède immédiatement à un vote : onze votent coupable, or la décision doit être prise à l’unanimité. Le juré qui a voté non coupable, sommé de se justifier, explique qu’il a un doute et que la vie d’un homme mérite quelques heures de discussion. Il s’emploie alors à les convaincre un par un...",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Le Magicien d'Oz",
+    "year": 1939,
+    "duration": "1h42",
+    "genres": ["Aventure", "Comédie musicale", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=H_3T4DGw10U",
+    "platforms": [],
+    "synopsis": "Dorothy, une orpheline, mène une existence tranquille au Kansas dans la ferme de sa tante. Jusqu'au jour où sa voisine, une institutrice acariâtre, tente de lui enlever son chien Toto. Dorothy s'enfuit avec l'animal, c'est alors qu'une tornade transporte l'adolescente endormie et Toto dans un monde étrange. Suivant les conseils d'une fée, Dorothy part à la recherche du mystérieux magicien d'Oz, seul capable de la ramener au Kansas.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Fenêtre sur cour",
+    "year": 1954,
+    "duration": "1h52",
+    "genres": ["Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=ZIk0jIBoEGM",
+    "platforms": [],
+    "synopsis": "À cause d'une jambe cassée, le reporter-photographe L. B. Jeffries est contraint de rester chez lui dans un fauteuil roulant. Homme d'action et amateur d'aventure, il s'aperçoit qu'il peut tirer parti de son immobilité forcée en étudiant le comportement des habitants de l'immeuble qu'il occupe dans Greenwich Village.",
+    "collections": ["watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Mad Max",
+    "year": 1979,
+    "duration": "1h33",
+    "genres": ["Action", "Thriller", "SF"],
+    "trailer": "https://www.youtube.com/watch?v=W-nRV83ixeg",
+    "platforms": ["DVD", "Max"],
+    "synopsis": "Sur les autoroutes désertées d'une Australie méconnaissable, une guerre sans merci oppose motards hors-la-loi et policiers Interceptor, qui tentent de triompher de la vermine au volant de voitures aux moteurs surgonflés. Dans ce monde en pleine décadence, les bons, les méchants, le manichéisme disparaissent...",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Harry Potter",
+    "year": 2001,
+    "duration": "2h32",
+    "genres": ["Aventure", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=mNgwNXKBEW0",
+    "platforms": ["DVD", "Max"],
+    "synopsis": "Orphelin, Harry Potter est élevé par son oncle et sa tante qui l'obligent à vivre dans un placard. Ces derniers, lui cachent qu'il est en fait fils de sorciers et que sa place est à Poudlard, la prestigieuse école de magie. Le jour de ses 11 ans, un géant nommé Hagrid lui révèle enfin la vérité. Après s'être équipé comme il se doit, Harry fait sa rentrée à Poudlard et débute très vite une nouvelle vie.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Le Seigneur des anneaux - La Communauté de l'anneau",
+    "year": 2001,
+    "duration": "2h58",
+    "genres": ["Aventure", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=vvx7m22GGtA",
+    "platforms": ["DVD", "Canal+", "Netflix", "Max"],
+    "synopsis": "Le jeune hobbit Frodon Sacquet hérite d'un anneau. Il s'agit de l'Anneau Unique, instrument de pouvoir absolu qui permettrait à Sauron, de régner sur la Terre du Milieu et de réduire en esclavage ses peuples... A moins que Frodon et ses fidèles compagnons ne parviennent à emporter l'Anneau jusqu'en Mordor, lieu où il a été forgé, et à le détruire pour toujours.",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
     "title": "AAAAAAAAAAAA",
     "year": 9999,
     "duration": "1h48",
@@ -1580,7 +1745,7 @@
     "trailer": "AAAAAAAAAAAA",
     "platforms": ["AAAAAA"],
     "synopsis": "AAAAAAAAAA",
-    "collections": [],
+    "collections": [""],
     "vu": false
   }
 ]
