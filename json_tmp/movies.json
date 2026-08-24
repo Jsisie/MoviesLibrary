@@ -1737,13 +1737,6 @@
     "collections": ["louison_et_leo"],
     "vu": false
   },
-
-
-
-
-
-
-
   {
     "title": "Heat",
     "year": 1995,
@@ -1895,6 +1888,116 @@
     "trailer": "https://www.youtube.com/watch?v=dpLAt9ILJmE",
     "platforms": [],
     "synopsis": "Roger Sartet, un truand ambitieux, s'évade avec l'aide des Manalese, une famille mafieuse. Traqué par le Commissaire Le Goff, Sartet va néanmoins proposer un gros coup aux Manalese : voler une collection de bijoux...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Paprika",
+    "year": 2006,
+    "duration": "1h30",
+    "genres": ["Animation", "Thriller", "SF"],
+    "trailer": "https://www.youtube.com/watch?v=PIUqozzyW2k",
+    "platforms": [],
+    "synopsis": "Dans le futur, le docteur Tokita met au point la DC Mini, qui permet de lire et de stocker les rêves. Peu après, trois machines sont volées et le chef de projet, Tororato, pris d'une crise, se jette dans le vide. Par chance, il survit à ses blessures et révèle qu'on lui a greffé les rêves d'un autre...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Tokyo Godfathers",
+    "year": 2003,
+    "duration": "1h32",
+    "genres": ["Animation", "Aventure", "Comédie", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=ZL_2E-HfIZY",
+    "platforms": [],
+    "synopsis": "Gin, Hana et Miyuki sont sans-abris dans Tokyo. Ils découvrent un bébé dans un tas de poubelles. Ils décident d'aller rendre l'enfant à sa mère.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Your Name",
+    "year": 2016,
+    "duration": "1h46",
+    "genres": ["Animation", "Drame", "Fantastique", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=joG0oBJnzVc",
+    "platforms": [],
+    "synopsis": "Mitsuha est une jeune lycéenne qui vit dans un village au milieu des montagnes. Taki, lui, vit au centre de Tokyo. Un jour Mitsuha rêve qu'elle est un jeune homme à Tokyo, et Taki rêve qu'il est une jeune fille dans un village de montagne. Quel secret se cache dans ces rêves ?",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Le Conte de la princesse Kaguya",
+    "year": 2013,
+    "duration": "2h17",
+    "genres": ["Animation", "Drame", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=f0p98qIdulo",
+    "platforms": ["Netflix"],
+    "synopsis": "Un coupeur de bambou appelé Taketori tombe sur une mystérieuse tige de bambou lumineuse. Il y trouve à l'intérieur un bébé de la taille de son pouce.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "The End of Evangelion",
+    "year": 1997,
+    "duration": "1h30",
+    "genres": ["Animation", "Drame", "Action", "SF"],
+    "trailer": "https://www.youtube.com/watch?v=J8t48KMGCo4",
+    "platforms": ["Netflix", "Sooner", "ADN"],
+    "synopsis": "Film reprenant \"Evangelion: Rebirth\" et dévoile la vraie fin prévue à l'origine pour la série Neon Genesis Evangelion, à la place des épisodes 25 et 26.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Jin-Roh - La Brigade des loups",
+    "year": 1999,
+    "duration": "1h42",
+    "genres": ["Animation", "Drame", "SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=lZ-lGi0s3KA",
+    "platforms": [],
+    "synopsis": "Entraîné à devenir une machine à tuer, Fuse se retrouve incapable de faire feu sur une fillette porteuse d'une bombe. L'enfant meurt devant ses yeux.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Millennium Actress",
+    "year": 2001,
+    "duration": "1h27",
+    "genres": ["Animation", "Drame", "Fantastique", "Romance"],
+    "trailer": "https://www.youtube.com/watch?v=wfnRYdTpzbs",
+    "platforms": [],
+    "synopsis": "Chiyoko Fujiwara, ancienne gloire du cinéma japonais, vit recluse chez elle. Un journaliste, fervent admirateur, vient l'interviewer sur son passé et lui remet une clé que Chiyoko avait perdu voilà 30 ans. Mêlant son histoire et les films qu'elle a tourné, l'actrice révèle son secret, une vie de passion, passée à rechercher un étrange inconnu, celui-là même qui lui a un jour remis cette clé en lui faisant la promesse de se revoir...",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Metropolis:2001",
+    "year": 2001,
+    "duration": "1h48",
+    "genres": ["Animation", "Drame", "SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=aen2v31UjqA",
+    "platforms": [],
+    "synopsis": "À Metropolis, une cité futuriste, les humains cohabitent avec les robots. Le gigantesque gratte-ciel Ziggurat abrite les élites de la société, tandis que les pauvres et les robots sont condamnés à une vie souterraine. Le détective Shunsaku Ban et son neveu Kenichi enquêtent sur un trafic d'organes humains et font la rencontre du docteur Laughton, un scientifique rebelle. Ce dernier a conçu Tima, une merveilleuse fillette qui est aussi un androïde d'un nouveau genre.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Interstella 5555",
+    "year": 2003,
+    "duration": "1h08",
+    "genres": ["Animation", "Musical", "SF", "Aventure"],
+    "trailer": "https://www.youtube.com/watch?v=EMroa1WgofA",
+    "platforms": [],
+    "synopsis": "Quatre musiciens extra-terrestres sont enlevés et transformés en humains. Ils deviennent des stars sur Terre, sous le contrôle du maléfique Earl Darkwood.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Memories",
+    "year": 1995,
+    "duration": "1h53",
+    "genres": ["Animation", "Fantastique", "SF", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=cAMWZfdwZI4",
+    "platforms": [],
+    "synopsis": "Science-fiction et contes fantastiques explorent la thématique du souvenir. Dans \"Magnetic Rose\", des ferrailleurs de l'espace captent un message de détresse en provenance d'une station spatiale abandonnée. Deux d'entre eux s'aventurent à bord du vaisseau. Place ensuite à \"Stinky Bomb\", où un laborantin devient par mégarde une arme biologique. Enfin, dans \"Canon Fodder\", les habitants d'une ville fabriquent et entretiennent les canons qui les défendent.",
     "collections": ["watchlist"],
     "vu": false
   }
