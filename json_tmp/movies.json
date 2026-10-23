@@ -84,7 +84,7 @@
     "trailer": "https://www.youtube.com/watch?v=TlbtLfWvFbo",
     "platforms": ["DVD", "Max"],
     "synopsis": "Non seulement Batman doit affronter le Pingouin, monstre génétique doté d'une intelligence à toute épreuve, qui sème la terreur mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
-    "collections": ["louison_et_leo"],
+    "collections": ["louison_et_leo", "christmas"],
     "vu": false
   },
   {
@@ -1910,7 +1910,7 @@
     "trailer": "https://www.youtube.com/watch?v=ZL_2E-HfIZY",
     "platforms": [],
     "synopsis": "Gin, Hana et Miyuki sont sans-abris dans Tokyo. Ils découvrent un bébé dans un tas de poubelles. Ils décident d'aller rendre l'enfant à sa mère.",
-    "collections": ["watchlist"],
+    "collections": ["watchlist", "christmas"],
     "vu": false
   },
   {
@@ -2219,6 +2219,83 @@
     "platforms": [],
     "synopsis": "Un groupe formé d'un général, de deux paysans et d'une princesse qui détient le trésor du clan va tenter de rejoindre un territoire ami à travers les affres de la guerre civile du XVIème siècle japonais.",
     "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Gremlins",
+    "year": 1984,
+    "duration": "1h46",
+    "genres": ["Comédie", "Fantastique", "Horreur"],
+    "trailer": "https://www.youtube.com/watch?v=QJwYQt8dHi4",
+    "platforms": ["Netflix", "Max", "Sooner", "TF1+"],
+    "synopsis": "Durant les fêtes de Noël, Randall Peltzer, un inventeur excentrique de gadgets en tout genre, cherche un cadeau original pour son fils Billy. Ses pas le mènent jusqu'à Chinatown où il achète un curieux animal dans la boutique d'un vieil antiquaire chinois : un \"mogwaï\". Le vendeur donne à Randall trois recommandations fondamentales concernant la créature : ne pas l'exposer à la lumière, lui éviter tout contact avec l'eau et surtout ne pas le nourrir après minuit.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "Gremlins 2",
+    "year": 1990,
+    "duration": "1h46",
+    "genres": ["Comédie", "Fantastique", "Horreur"],
+    "trailer": "https://www.youtube.com/watch?v=pdwMzJZsy-M",
+    "platforms": ["Netflix", "Max", "TF1+"],
+    "synopsis": "Six ans après avoir vaincu les redoutables Gremlins, Billy Peltzer et sa fiancée Kate ont trouvé un nouveau départ à New York, où ils travaillent dans le building du milliardaire excentrique Daniel Clamp. Leur quotidien prend un tournant inattendu lorsque Billy retrouve Gizmo. Cependant, la joie de retrouver son ami est de courte durée. Un incident se produit lorsqu'une goutte d'eau touche la fourrure de Gizmo, déclenchant la création d'une nouvelle génération de Gremlins, plus affamés et chaotiques que jamais",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Die Hard",
+    "year": 1988,
+    "duration": "2h11",
+    "genres": ["Action", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=jaJuwKCmJbY",
+    "platforms": ["Disney+"],
+    "synopsis": "John McClane, policier new-yorkais, est venu rejoindre pour les fêtes de Noël sa femme Holly, dont il est séparé depuis plusieurs mois, dans le secret espoir d'une réconciliation. Celle-ci est cadre dans une multinationale japonaise, la Nakatomi Corporation. Son patron, M. Takagi, donne une soirée en l'honneur de ses employés, à laquelle assiste McClane. Tandis qu'il s'isole pour téléphoner, un commando investit l'immeuble et coupe toutes les communications avec l'extérieur.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "Love Actually",
+    "year": 2003,
+    "duration": "2h10",
+    "genres": ["Romance", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=H9Z3_ifFheQ",
+    "platforms": ["Prime"],
+    "synopsis": "Histoires d'amour croisées d'une rock-star, d'un couple récemment marié, d'un vieux couple, du Premier Ministre, entre autres, à 5 semaines de Noël.",
+    "collections": ["christmas", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Maman, j'ai raté l'avion !",
+    "year": 1990,
+    "duration": "1h43",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=jEDaVHmw7r4",
+    "platforms": ["Disney+", "M6+"],
+    "synopsis": "Les McCallister ont prévu de passer les fêtes de Noël en famille à Paris. Mais dans la précipitation du départ, ils ne se rendent pas compte que Kevin, le plus jeune des enfants, n'est pas monté dans la voiture avec eux. Kevin se retrouve seul dans la maison et s'accommode très bien de la situation. Croyant la maison déserte pour toute la durée des vacances, Harry et Marvin, des petits malfrats, décident de la cambrioler.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "L'Étrange Noël de Monsieur Jack",
+    "year": 1993,
+    "duration": "1h16",
+    "genres": ["Comédie", "Animation", "Fantastique", "Comédie musicale"],
+    "trailer": "https://www.youtube.com/watch?v=wr6N_hZyBCk",
+    "platforms": ["Disney+"],
+    "synopsis": "La ville de Halloween, célèbre sa fête annuelle, rendez-vous des sorcières, loups-garous, vampires et autres monstres en tous genres. Mais Jack Skellington, roi des citrouilles, s'ennuie depuis des siècles. Il en a assez de préparer la même fête de Halloween qui revient chaque année. Quand il découvre l'entrée d'une autre ville, celle de Noël, il décide de s'en approprier les fastes et l'esprit.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "AAAAAAAAAAAAAAAA",
+    "year": 9999,
+    "duration": "2h00",
+    "genres": ["Comédie"],
+    "trailer": "AAAAAAAAAAAAAAAAAAAAAAAA",
+    "platforms": [],
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAA",
+    "collections": [],
     "vu": false
   }
 ]
