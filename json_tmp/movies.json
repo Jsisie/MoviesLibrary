@@ -84,7 +84,7 @@
     "trailer": "https://www.youtube.com/watch?v=TlbtLfWvFbo",
     "platforms": ["DVD", "Max"],
     "synopsis": "Non seulement Batman doit affronter le Pingouin, monstre génétique doté d'une intelligence à toute épreuve, qui sème la terreur mais, plus difficile encore, il doit faire face à la séduction de deux super-femmes, la douce Selina Kyle et la féline Catwoman qui va lui donner bien du fil a retordre. Si Bruce Wayne apprécie Selina, Batman n'est pas insensible au charme de Catwoman.",
-    "collections": ["louison_et_leo"],
+    "collections": ["louison_et_leo", "christmas"],
     "vu": false
   },
   {
@@ -1688,7 +1688,7 @@
     "duration": "1h42",
     "genres": ["Aventure", "Comédie musicale", "Fantastique"],
     "trailer": "https://www.youtube.com/watch?v=H_3T4DGw10U",
-    "platforms": [],
+    "platforms": ["DVD"],
     "synopsis": "Dorothy, une orpheline, mène une existence tranquille au Kansas dans la ferme de sa tante. Jusqu'au jour où sa voisine, une institutrice acariâtre, tente de lui enlever son chien Toto. Dorothy s'enfuit avec l'animal, c'est alors qu'une tornade transporte l'adolescente endormie et Toto dans un monde étrange. Suivant les conseils d'une fée, Dorothy part à la recherche du mystérieux magicien d'Oz, seul capable de la ramener au Kansas.",
     "collections": ["louison_et_leo"],
     "vu": false
@@ -1910,7 +1910,7 @@
     "trailer": "https://www.youtube.com/watch?v=ZL_2E-HfIZY",
     "platforms": [],
     "synopsis": "Gin, Hana et Miyuki sont sans-abris dans Tokyo. Ils découvrent un bébé dans un tas de poubelles. Ils décident d'aller rendre l'enfant à sa mère.",
-    "collections": ["watchlist"],
+    "collections": ["watchlist", "christmas"],
     "vu": false
   },
   {
@@ -2109,6 +2109,193 @@
     "platforms": ["Netflix"],
     "synopsis": "Peter Pan, à présent adulte, est devenu Peter Banning, un avocat d'affaires débordé. Il a tiré un trait sur son passé, s'est marié et a eu deux enfants, qu'il a tendance à négliger. A l'occasion de Noël, il se retrouve avec sa famille chez Wendy, devenue grand-mère. La nuit même, le capitaine Crochet kidnappe ses enfants afin de provoquer son vieil ennemi en duel. Pour sauver sa progéniture, Peter n'a plus qu'une solution : revenir au Pays de Jamais Jamais.",
     "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Les Sept Samouraïs",
+    "year": 1954,
+    "duration": "3h27",
+    "genres": ["Samourai", "Aventure", "Action", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=KJmVK4EUbgU",
+    "platforms": [],
+    "synopsis": "La tranquillité d’un petit village japonais est troublée par les attaques répétées d’une bande de pillards. Sept samouraïs sans maître acceptent de défendre les paysans impuissants.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Harakiri",
+    "year": 1962,
+    "duration": "2h13",
+    "genres": ["Samourai", "Drame", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=gfABwM-Ppng",
+    "platforms": [],
+    "synopsis": "Au XVIIe siècle, le Japon n’est plus en guerre et le pays est dirigé avec fermeté. Hanshirô Tsugumo, un rônin (samouraï errant) sans travail parmi tant d’autres, décide de frapper à la porte du puissant clan des Ii. Reçu par Kageyu Saitô, l'intendant du clan, il lui demande la permission d'accomplir le suicide par harakiri dans la résidence. Tentant de l’en dissuader, Saitô commence alors à lui raconter l’histoire de Motome Chijiwa, un ancien rônin qui souhaitait accomplir, lui aussi, le même rituel…",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Ran",
+    "year": 1985,
+    "duration": "2h42",
+    "genres": ["Samourai", "Drame", "Historique"],
+    "trailer": "https://www.youtube.com/watch?v=YwP_kXyd-Rw",
+    "platforms": ["DVD"],
+    "synopsis": "Dans le Japon du XVIe siècle, le puissant seigneur Hidetora, du clan Ichimongi, décide de se retirer et de partager son domaine entre ses trois fils. Le cadet, Saburo, refuse cette décision, estimant qu'elle ne peut que déchirer la famille. Il est alors déshérité. Très vite, les trois frères se livrent entre eux une guerre sans merci sous le regard impuissant du père.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Yojimbo",
+    "year": 1961,
+    "duration": "1h50",
+    "genres": ["Samourai", "Aventure", "Drame", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=5L_i2ReuARo",
+    "platforms": [],
+    "synopsis": "Japon, XIXème siècle. Un samouraï errant fait étape dans un village terrorisé par deux clans rivaux. En se ralliant successivement à l'un et à l'autre, il va sauver les villageois.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Le Château de l'araignée",
+    "year": 1957,
+    "duration": "1h50",
+    "genres": ["Samourai", "Drame", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=VdqM0T3ZXoA",
+    "platforms": [],
+    "synopsis": "Dans le Japon féodal, alors que les guerres civiles font rage, les généraux Washizu et Miki rentrent victorieux chez leur seigneur Tsuzuki. Ils traversent une mystérieuse forêt où ils rencontrent un esprit qui leur annonce leur destinée : Washizu deviendra seigneur du château de l’araignée, mais ce sera le fils de Miki qui lui succédera. Troublé par cette prophétie, Washizu se confie à sa femme, Asaji. Celle-ci lui conseille alors de forcer le destin en assassinant Tsuzuki.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Le Dernier Samouraï",
+    "year": 2003,
+    "duration": "2h24",
+    "genres": ["Samourai", "Guerre", "Historique", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=T50_qHEOahQ",
+    "platforms": ["Netflix"],
+    "synopsis": "En 1876, le capitaine Nathan Algren vit avec les souvenirs des batailles sanglantes menées contre les Sioux. Fort de son expérience au combat, il devient conseiller militaire pour le compte de l'empereur japonais soucieux d'ouvrir son pays aux traditions et au commerce occidentaux et d'éradiquer l'ancienne caste guerrière des samouraïs. Mais ceux-ci influent sur le capitaine Algren, qui se trouve bientôt pris entre deux feux, au coeur d'une confrontation entre deux époques et deux mondes.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Ghost Dog",
+    "year": 1999,
+    "duration": "1h56",
+    "genres": ["Samourai", "Drame", "Thriller", "Policier"],
+    "trailer": "https://www.youtube.com/watch?v=LdQYQhk6-Bo",
+    "platforms": [],
+    "synopsis": "Ghost Dog, un tueur à gages au service du parrain Louie Bonacelli, vit sur le toit d'un immeuble de New York, entouré de pigeons. Il ne jure que par les préceptes du hagakure, le code des samouraïs. Son nouveau contrat consiste à éliminer Handsome Frank, un truand qui a eu le tort de coucher avec Louise, la fille du mafieux Ray Vargo.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Rébellion",
+    "year": 1967,
+    "duration": "2h08",
+    "genres": ["Samourai", "Drame", "Action", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=GTkERWlcJB0",
+    "platforms": [],
+    "synopsis": "Sous l'ère Edo au Japon. Un chef de fief décide de marier sa femme, qu'il vient de répudier, au fils du samouraï Isaburo Sasahara.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Lady Snowblood",
+    "year": 1973,
+    "duration": "1h37",
+    "genres": ["Samourai", "Action", "Thriller", "Drame"],
+    "trailer": "https://www.youtube.com/watch?v=bIiuywU9ZJ4",
+    "platforms": [],
+    "synopsis": "Yuki, experte dans le maniement du sabre, parcourt le Japon pour se venger de ceux qui ont tué sa famille et violé sa mère.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "La Forteresse cachée",
+    "year": 1958,
+    "duration": "2h19",
+    "genres": ["Samourai", "Aventure", "Drame", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=_pfDloOnodQ",
+    "platforms": [],
+    "synopsis": "Un groupe formé d'un général, de deux paysans et d'une princesse qui détient le trésor du clan va tenter de rejoindre un territoire ami à travers les affres de la guerre civile du XVIème siècle japonais.",
+    "collections": ["watchlist"],
+    "vu": false
+  },
+  {
+    "title": "Gremlins",
+    "year": 1984,
+    "duration": "1h46",
+    "genres": ["Comédie", "Fantastique", "Horreur"],
+    "trailer": "https://www.youtube.com/watch?v=QJwYQt8dHi4",
+    "platforms": ["Netflix", "Max", "Sooner", "TF1+"],
+    "synopsis": "Durant les fêtes de Noël, Randall Peltzer, un inventeur excentrique de gadgets en tout genre, cherche un cadeau original pour son fils Billy. Ses pas le mènent jusqu'à Chinatown où il achète un curieux animal dans la boutique d'un vieil antiquaire chinois : un \"mogwaï\". Le vendeur donne à Randall trois recommandations fondamentales concernant la créature : ne pas l'exposer à la lumière, lui éviter tout contact avec l'eau et surtout ne pas le nourrir après minuit.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "Gremlins 2",
+    "year": 1990,
+    "duration": "1h46",
+    "genres": ["Comédie", "Fantastique", "Horreur"],
+    "trailer": "https://www.youtube.com/watch?v=pdwMzJZsy-M",
+    "platforms": ["Netflix", "Max", "TF1+"],
+    "synopsis": "Six ans après avoir vaincu les redoutables Gremlins, Billy Peltzer et sa fiancée Kate ont trouvé un nouveau départ à New York, où ils travaillent dans le building du milliardaire excentrique Daniel Clamp. Leur quotidien prend un tournant inattendu lorsque Billy retrouve Gizmo. Cependant, la joie de retrouver son ami est de courte durée. Un incident se produit lorsqu'une goutte d'eau touche la fourrure de Gizmo, déclenchant la création d'une nouvelle génération de Gremlins, plus affamés et chaotiques que jamais",
+    "collections": ["louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Die Hard",
+    "year": 1988,
+    "duration": "2h11",
+    "genres": ["Action", "Thriller"],
+    "trailer": "https://www.youtube.com/watch?v=jaJuwKCmJbY",
+    "platforms": ["Disney+"],
+    "synopsis": "John McClane, policier new-yorkais, est venu rejoindre pour les fêtes de Noël sa femme Holly, dont il est séparé depuis plusieurs mois, dans le secret espoir d'une réconciliation. Celle-ci est cadre dans une multinationale japonaise, la Nakatomi Corporation. Son patron, M. Takagi, donne une soirée en l'honneur de ses employés, à laquelle assiste McClane. Tandis qu'il s'isole pour téléphoner, un commando investit l'immeuble et coupe toutes les communications avec l'extérieur.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "Love Actually",
+    "year": 2003,
+    "duration": "2h10",
+    "genres": ["Romance", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=H9Z3_ifFheQ",
+    "platforms": ["Prime"],
+    "synopsis": "Histoires d'amour croisées d'une rock-star, d'un couple récemment marié, d'un vieux couple, du Premier Ministre, entre autres, à 5 semaines de Noël.",
+    "collections": ["christmas", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Maman, j'ai raté l'avion !",
+    "year": 1990,
+    "duration": "1h43",
+    "genres": ["Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=jEDaVHmw7r4",
+    "platforms": ["Disney+", "M6+"],
+    "synopsis": "Les McCallister ont prévu de passer les fêtes de Noël en famille à Paris. Mais dans la précipitation du départ, ils ne se rendent pas compte que Kevin, le plus jeune des enfants, n'est pas monté dans la voiture avec eux. Kevin se retrouve seul dans la maison et s'accommode très bien de la situation. Croyant la maison déserte pour toute la durée des vacances, Harry et Marvin, des petits malfrats, décident de la cambrioler.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "L'Étrange Noël de Monsieur Jack",
+    "year": 1993,
+    "duration": "1h16",
+    "genres": ["Comédie", "Animation", "Fantastique", "Comédie musicale"],
+    "trailer": "https://www.youtube.com/watch?v=wr6N_hZyBCk",
+    "platforms": ["Disney+"],
+    "synopsis": "La ville de Halloween, célèbre sa fête annuelle, rendez-vous des sorcières, loups-garous, vampires et autres monstres en tous genres. Mais Jack Skellington, roi des citrouilles, s'ennuie depuis des siècles. Il en a assez de préparer la même fête de Halloween qui revient chaque année. Quand il découvre l'entrée d'une autre ville, celle de Noël, il décide de s'en approprier les fastes et l'esprit.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "AAAAAAAAAAAAAAAA",
+    "year": 9999,
+    "duration": "2h00",
+    "genres": ["Comédie"],
+    "trailer": "AAAAAAAAAAAAAAAAAAAAAAAA",
+    "platforms": [],
+    "synopsis": "AAAAAAAAAAAAAAAAAAAAAA",
+    "collections": [],
     "vu": false
   }
 ]
