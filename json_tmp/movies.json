@@ -2288,14 +2288,69 @@
     "vu": false
   },
   {
-    "title": "AAAAAAAAAAAAAAAA",
-    "year": 9999,
-    "duration": "2h00",
-    "genres": ["Comédie"],
-    "trailer": "AAAAAAAAAAAAAAAAAAAAAAAA",
+    "title": "The Holiday",
+    "year": 2006,
+    "duration": "2h16",
+    "genres": ["Romance", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=wk9caHO3pW0",
+    "platforms": ["Prime"],
+    "synopsis": "Iris et Amanda sont deux femmes que tout oppose. L'une vit dans un confortable cottage anglais, l'autre dans une propriété huppée de Hollywood. Déçues par les hommes, elles décident de prendre l'air. Elles échangent alors sur Internet, leurs maisons pour les vacances. Contre toute attente, chacune d'elles va rencontrer l'amour et découvrir qu'un changement d'adresse peut véritablement transformer leur vie...",
+    "collections": ["christmas", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Klaus",
+    "year": 2019,
+    "duration": "1h36",
+    "genres": ["Comédie", "Aventure", "Animation"],
+    "trailer": "https://www.youtube.com/watch?v=h5gR4vUb2rA",
+    "platforms": ["Netflix"],
+    "synopsis": "Après avoir obtenu tant bien que mal son diplôme à l'école des postiers dans laquelle il s'est illustré pour sa nullité, Jesper se retrouve envoyé dans un village glacé et sinistre, perdu sur une île située au-delà du cercle arctique. Et sa première mission s'annonce ardue : ici, les habitants se détestent cordialement et n'ont pas l'intention de s'écrire des lettres. Alors qu'il perd espoir, le jeune facteur fait la rencontre de Klaus, un étrange homme aussi taciturne qu'imposant. A eux deux, ils parviendront peut-être à réchauffer le cœur des villageois en leur offrant des jouets.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "La vie est belle",
+    "year": 1946,
+    "duration": "2h10",
+    "genres": ["Drame", "Fantastique", "Noir et Blanc"],
+    "trailer": "https://www.youtube.com/watch?v=cEsirWAIduQ",
     "platforms": [],
-    "synopsis": "AAAAAAAAAAAAAAAAAAAAAA",
-    "collections": [],
+    "synopsis": "Un soir de Noël, un homme déprimé décide de se jeter dans la rivière après avoir perdu une grosse somme d'argent. Un ange va l'aider.",
+    "collections": ["christmas", "watchlist", "louison_et_leo"],
+    "vu": false
+  },
+  {
+    "title": "Last Christmas",
+    "year": 2019,
+    "duration": "1h43",
+    "genres": ["Romance", "Comédie"],
+    "trailer": "https://www.youtube.com/watch?v=gvdB8jDIX7I",
+    "platforms": ["Prime"],
+    "synopsis": "Kate traîne derrière elle une série de mauvaises décisions et erre dans Londres au son des grelots accrochés à ses bottes de lutin, seul emploi qu’elle ait réussi à décrocher dans une boutique de Noël. C’est pourquoi elle n’en croit pas ses yeux quand elle rencontre Tom qui semble voir en elle bien plus que ce qu’elle laisse paraître. Alors que la ville se pare de ses plus beaux atours pour les fêtes de fin d’année, rien ne semblait les prédisposer à nouer une relation.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "Le Grinch",
+    "year": 2000,
+    "duration": "1h44",
+    "genres": ["Comédie", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=DD0m9t4WHEQ",
+    "platforms": [],
+    "synopsis": "Au pays des Chous, tous célèbrent Noël dans la joie, sauf le Grinch, créature verte recluse au sommet du mont Crumpit. Jadis moqué pour sa différence, il s’est isolé et nourrit depuis une profonde rancœur. Bien décidé à se venger, il élabore un plan pour saboter la fête préférée des Chous et voler leur esprit de Noël.",
+    "collections": ["christmas"],
+    "vu": false
+  },
+  {
+    "title": "Family Man",
+    "year": 2000,
+    "duration": "2h05",
+    "genres": ["Comédie", "Drame", "Fantastique"],
+    "trailer": "https://www.youtube.com/watch?v=2rEk8yMmvNM",
+    "platforms": [],
+    "synopsis": "Brillant étudiant en économie, Jack Campbell part effectuer un stage dans une grande banque londonienne. Il promet à sa fiancée Kate de revenir l'épouser au plus vite. Mais treize ans plus tard, Jack, devenu un yuppie de Wall Street, collectionne les aventures sans lendemain. Le soir de Noël, alors qu'il fait ses courses, Jack est témoin d'un braquage à main armée. Il s'interpose, en essayant de calmer la situation. Le braqueur décide de s'en aller. Cependant, il annonce à Jack que sa vie va changer. Le lendemain, il se réveille dans une maison inconnue de la banlieue du New Jersey...",
+    "collections": ["christmas"],
     "vu": false
   }
 ]
